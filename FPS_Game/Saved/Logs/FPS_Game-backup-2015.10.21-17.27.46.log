@@ -1,0 +1,1142 @@
+﻿[2015.10.21-15.02.24:062][  0]Log file open, 10/21/15 17:02:24
+[2015.10.21-15.02.24:062][  0]LogInit:Display: Running engine for game: FPS_Game
+[2015.10.21-15.02.24:062][  0]LogInit:Display: RandInit(597571731) SRandInit(597571732).
+[2015.10.21-15.02.24:062][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.21-15.02.24:062][  0]LogStats: Stats thread started
+[2015.10.21-15.02.24:062][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.21-15.02.24:062][  0]LogInit: API Version: 2579680
+[2015.10.21-15.02.24:062][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.10.21-15.02.24:062][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.21-15.02.24:062][  0]LogInit: Build Configuration: Development
+[2015.10.21-15.02.24:062][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.10.21-15.02.24:062][  0]LogInit: Command line: 
+[2015.10.21-15.02.24:062][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.10.21-15.02.24:062][  0]LogInit: Rocket: 1
+[2015.10.21-15.02.24:082][  0]LogInit: Using libcurl 7.41.0
+[2015.10.21-15.02.24:082][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.21-15.02.24:082][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.21-15.02.24:082][  0]LogInit:  - other features:
+[2015.10.21-15.02.24:082][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.21-15.02.24:082][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.21-15.02.24:082][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.21-15.02.24:082][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.21-15.02.24:082][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.21-15.02.24:082][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.21-15.02.24:082][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.21-15.02.24:082][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.21-15.02.24:082][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.21-15.02.24:082][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.21-15.02.24:099][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.21-15.02.24:118][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.21-15.02.24:128][  0]LogInit: Object subsystem initialized
+[2015.10.21-15.02.24:129][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.21-15.02.24:130][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.21-15.02.24:130][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.21-15.02.24:130][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.21-15.02.24:130][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.21-15.02.24:130][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.21-15.02.24:130][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.21-15.02.24:130][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.21-15.02.24:154][  0]LogInit: Computer: DESKTOP-6RAQE7I
+[2015.10.21-15.02.24:154][  0]LogInit: User: mrcmo
+[2015.10.21-15.02.24:154][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.21-15.02.24:154][  0]LogInit: High frequency timer resolution =2.435881 MHz
+[2015.10.21-15.02.24:154][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.21-15.02.24:154][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.21-15.02.24:154][  0]LogMemory: Process Physical Memory: 50.75 MB used, 50.75 MB peak
+[2015.10.21-15.02.24:154][  0]LogMemory: Process Virtual Memory: 24.85 MB used, 24.85 MB peak
+[2015.10.21-15.02.24:154][  0]LogMemory: Physical Memory: 3681.42 MB used, 8077.84 MB total
+[2015.10.21-15.02.24:154][  0]LogMemory: Virtual Memory: 311.56 MB used, 134217728.00 MB total
+[2015.10.21-15.02.24:189][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.10.21-15.02.24:506][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.10.21-15.02.25:097][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630M     (Feature Level 11_0)
+[2015.10.21-15.02.25:097][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.10.21-15.02.25:118][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 630M     (Feature Level 11_0)
+[2015.10.21-15.02.25:118][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.21-15.02.25:122][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.21-15.02.25:122][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.21-15.02.25:122][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.21-15.02.25:130][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.02.25:130][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.21-15.02.25:130][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.21-15.02.25:145][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.21-15.02.25:165][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.21-15.02.26:236][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.10.21-15.02.26:259][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.21-15.02.26:282][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.21-15.02.26:302][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.21-15.02.26:327][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.21-15.02.26:346][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.21-15.02.26:363][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.21-15.02.26:381][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.21-15.02.26:399][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.21-15.02.26:417][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.21-15.02.26:436][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.21-15.02.26:453][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.21-15.02.26:517][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.21-15.02.26:534][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.21-15.02.26:552][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.21-15.02.26:573][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.21-15.02.26:573][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.21-15.02.26:876][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.21-15.02.26:941][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.21-15.02.26:941][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.10.21-15.02.26:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.21-15.02.26:941][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.21-15.02.26:941][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.21-15.02.26:941][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.21-15.02.27:145][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.21-15.02.27:158][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mrcmo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.21-15.02.27:483][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.21-15.02.27:592][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.21-15.02.27:593][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.21-15.02.27:630][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.21-15.02.27:630][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.21-15.02.28:034][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.21-15.02.29:314][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.21-15.02.29:788][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.02.29:789][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.02.29:803][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.02.29:817][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.02.30:155][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.10.21-15.02.30:155][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.10.21-15.02.30:267][  0]LogEngine: Initializing Engine...
+[2015.10.21-15.02.30:270][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.21-15.02.30:272][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.10.21-15.02.30:528][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.21-15.02.30:532][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.02.30:560][  0]LogInit: FAudioDevice initialized.
+[2015.10.21-15.02.30:593][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.21-15.02.30:601][  0]LogInit: Texture streaming: Disabled
+[2015.10.21-15.02.30:636][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.21-15.02.30:636][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.21-15.02.30:636][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 79bddb9f464d20ee9f177c986d77ef1a|9dd5e3bebceb455facde07c8901c54b2|2e2e6e00-0e59-40fc-8d54-e5025d4ae304
+[2015.10.21-15.02.30:636][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.21-15.02.30:683][  0]LogInit: Transaction tracking system initialized
+[2015.10.21-15.02.31:018][  0]BlueprintLog: New page: Editor Load
+[2015.10.21-15.02.31:085][  0]LogAssetRegistry: FAssetRegistry took 0.0113 seconds to start up
+[2015.10.21-15.02.31:085][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.21-15.02.32:683][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.10.21-15.02.32:687][  0]LogConsoleResponse:Display: 
+[2015.10.21-15.02.32:913][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.21-15.02.33:306][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.02.33:306][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.21-15.02.33:307][  0]LightingResults: New page: Lighting Build
+[2015.10.21-15.02.33:335][  0]MapCheck: New page: Map Check
+[2015.10.21-15.02.33:335][  0]LightingResults: New page: Lighting Build
+[2015.10.21-15.02.33:366][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001636D0A200
+[2015.10.21-15.02.34:200][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.21-15.02.34:212][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.21-15.02.34:224][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.21-15.02.34:294][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.689ms to complete.
+[2015.10.21-15.02.34:294][  0]LogFileHelpers: Loading map 'Template_Default' took 0.987
+[2015.10.21-15.02.34:410][  0]LogCollectionManager: Loaded 0 collections in 0.004366 seconds
+[2015.10.21-15.02.34:424][  0]LogContentBrowser: Native class hierarchy populated in 0.0133 seconds. Added 1792 classes and 301 folders.
+[2015.10.21-15.02.34:588][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.21-15.02.34:849][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.21-15.02.34:954][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2015.10.21-15.02.35:124][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.21-15.02.35:125][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.02.35:130][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.21-15.02.35:153][  0]LogLoad: Full Startup: 13.64 seconds (BP compile: 0.35 seconds)
+[2015.10.21-15.02.35:300][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.21-15.02.35:346][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.21-15.02.35:595][  0]LogRenderer: Reallocating scene render targets to support 704x624 (Frame:2).
+[2015.10.21-15.02.36:027][  3]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.02.36:413][ 11]LogAssetRegistry: Asset discovery search completed in 5.3402 seconds
+[2015.10.21-15.02.46:780][260]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.02.47:336][260]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.02.47:446][260]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.02.48:371][260]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.10.21-15.02.48:528][260]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.02.48:613][260]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.21-15.02.53:149][523]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.02.53:603][523]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Levels/Level_1.Level_1:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:603][523]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:603][523]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:603][523]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:603][523]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:604][523]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:604][523]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Levels/Level_1.Level_1:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:637][523]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Levels/Level_1.Level_1:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.02.53:785][523]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.02.53:941][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000164D974CC0
+[2015.10.21-15.02.53:941][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000164D9754E0
+[2015.10.21-15.02.53:942][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000165CC9DBC0
+[2015.10.21-15.02.54:115][523]Cmd: MAP LOAD FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.21-15.02.54:116][523]LightingResults: New page: Lighting Build
+[2015.10.21-15.02.54:149][523]LoadErrors: New page: Loading map: Level_1.umap
+[2015.10.21-15.02.54:149][523]MapCheck: New page: Map Check
+[2015.10.21-15.02.54:149][523]LightingResults: New page: Lighting Build
+[2015.10.21-15.02.54:187][523]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001625C6F380
+[2015.10.21-15.02.54:361][523]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.02.54:426][523]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.21-15.02.54:497][523]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.21-15.02.54:576][523]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.865ms to complete.
+[2015.10.21-15.02.54:577][523]LogFileHelpers: Loading map 'Level_1' took 0.463
+[2015.10.21-15.03.19:875][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.03.19:875][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.03.19:875][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.03.19:875][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.03.19:876][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.03.19:876][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.03.19:906][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.40] Compile of BotAI_tmp successful, but with 6 Warning(s) [in 228 ms]
+[2015.10.21-15.03.20:205][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.03.20:206][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.03.20:206][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.03.20:206][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.03.20:206][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.03.20:206][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.03.20:236][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.73] Compile of BotAI_tmp successful, but with 6 Warning(s) [in 226 ms]
+[2015.10.21-15.03.20:237][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.73] Compile of BotAI_tmp successful, but with 7 Warning(s) [in 0 ms]
+[2015.10.21-15.03.20:237][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.73] Compile of BotAI_tmp successful, but with 8 Warning(s) [in 0 ms]
+[2015.10.21-15.03.20:285][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.77] Compile of BotAI_tmp successful, but with 9 Warning(s) [in 47 ms]
+[2015.10.21-15.03.20:285][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.78] Compile of BotAI_tmp successful, but with 10 Warning(s) [in 0 ms]
+[2015.10.21-15.03.20:285][802]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0058.78] Compile of BotAI_tmp successful, but with 11 Warning(s) [in 0 ms]
+[2015.10.21-15.03.21:235][843]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.03.21:265][843]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.03.26:371][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.03.26:372][977]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.21-15.03.39:992][440]LogEditorTransaction: Undo Delete current selection
+[2015.10.21-15.03.40:179][440]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_BotAI_tmp_C_2:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_BotAI_tmp_C_2:CollisionCylinder
+[2015.10.21-15.03.40:179][440]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_BotAI_tmp_C_2:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_BotAI_tmp_C_2:CollisionCylinder
+[2015.10.21-15.03.40:180][440]LogUObjectHash:Warning: Ambiguous search, could be CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_BotAI_tmp_C_2:CollisionCylinder or CapsuleComponent /Engine/Transient.TRASH_Default__SKEL_BotAI_tmp_C_2:CollisionCylinder
+[2015.10.21-15.03.40:366][440]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.21-15.03.40:389][440]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.03.49:491][779]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.21-15.03.57:692][979]LogEditorTransaction: Undo Delete current selection
+[2015.10.21-15.03.58:050][979]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.21-15.03.58:072][979]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.00:920][ 82]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.11:102][521]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.21-15.04.11:225][521]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.11:272][521]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.04.12:175][521]LogSavePackage: Save=899.979919ms
+[2015.10.21-15.04.12:175][521]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmpFAEB5115405AB5AA52DA0D84E150B1EB.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.04.18:581][806]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.19:344][840]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.24:865][ 94]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.04.24:933][ 94]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.24:957][ 94]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.04.25:926][ 94]LogSavePackage: Save=722.423645ms
+[2015.10.21-15.04.25:926][ 94]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmp9931884F4A931C8FEC7EEDBD6C5659DA.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.04.28:590][208]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.04.28:610][208]LogPlayLevel: [PIE] Compiling BotAI_tmp before PIE...
+[2015.10.21-15.04.28:858][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.04.28:858][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.04.28:859][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.04.28:859][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.04.28:860][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.04.28:860][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.04.28:884][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0127.37] Compile of BotAI_tmp successful, but with 6 Warning(s) [in 171 ms]
+[2015.10.21-15.04.28:884][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0127.37] Compile of BotAI_tmp successful, but with 7 Warning(s) [in 0 ms]
+[2015.10.21-15.04.28:884][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0127.37] Compile of BotAI_tmp successful, but with 8 Warning(s) [in 0 ms]
+[2015.10.21-15.04.28:932][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0127.42] Compile of BotAI_tmp successful, but with 9 Warning(s) [in 48 ms]
+[2015.10.21-15.04.28:949][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0127.44] Compile of BotAI_tmp successful, but with 10 Warning(s) [in 16 ms]
+[2015.10.21-15.04.28:949][208]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0127.44] Compile of BotAI_tmp successful, but with 11 Warning(s) [in 0 ms]
+[2015.10.21-15.04.28:995][208]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001631BE4720
+[2015.10.21-15.04.29:021][208]LogPlayLevel: PIE:  Blueprint regeneration took 430 ms (1 blueprints)
+[2015.10.21-15.04.29:041][208]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:04:29 PM)
+[2015.10.21-15.04.29:041][208]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.04.29:046][208]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005178s)
+[2015.10.21-15.04.29:047][208]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.04.29:048][208]LogPlayLevel: PIE: World Init took: (0.002107s)
+[2015.10.21-15.04.29:049][208]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.007557s)
+[2015.10.21-15.04.29:105][208]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.04.29:114][208]LogInit: FAudioDevice initialized.
+[2015.10.21-15.04.29:116][208]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.29:414][208]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.04.29:420][208]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.04.29
+[2015.10.21-15.04.29:420][208]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.04.29:421][208]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.04.29:421][208]LogWorld: Bringing up level for play took: 0.005569
+[2015.10.21-15.04.29:453][208]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.057
+[2015.10.21-15.04.30:277][238]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000163DD062A0
+[2015.10.21-15.04.31:189][275]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.33:911][387]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.21-15.04.35:032][437]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.04.35:032][437]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:04:35 PM)
+[2015.10.21-15.04.35:032][437]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.04.35:038][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005671s)
+[2015.10.21-15.04.35:039][437]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.04.35:040][437]LogPlayLevel: PIE: World Init took: (0.001831s)
+[2015.10.21-15.04.35:040][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.007794s)
+[2015.10.21-15.04.35:040][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.04.35:041][437]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.21-15.04.35:113][437]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.04.35:121][437]LogInit: FAudioDevice initialized.
+[2015.10.21-15.04.35:123][437]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.35:158][437]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.04.35:166][437]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.04.35
+[2015.10.21-15.04.35:166][437]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.04.35:166][437]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.04.35:168][437]LogWorld: Bringing up level for play took: 0.008135
+[2015.10.21-15.04.35:205][437]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.191
+[2015.10.21-15.04.52:777][450]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001625A96E80
+[2015.10.21-15.04.55:299][569]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.04.55:325][569]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.05.04:317][907]BlueprintLog: New page: Compile BotAI_tmp
+[2015.10.21-15.05.04:571][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.05.04:572][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.05.04:572][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.05.04:572][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.05.04:572][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.05.04:573][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.05.04:675][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.05.04:676][907]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.21-15.05.04:776][907]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0163.27] Compile of BotAI_tmp successful, but with 6 Warning(s) [in 458 ms]
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  As Player Blueprint  and  Target : Player Blueprint Reference is not compatible with Self Reference.
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning Can't connect pins  Target  and  As Player Blueprint : Self Reference is not compatible with Player Blueprint Reference.
+[2015.10.21-15.05.04:776][907]BlueprintEditorCompileResults:Warning: Warning [0163.27] Compile of BotAI_tmp successful, but with 6 Warning(s) [in 458 ms]
+[2015.10.21-15.05.49:823][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.05.49:824][891]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.21-15.05.49:875][891]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000163096C220
+[2015.10.21-15.05.49:901][891]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.05.51:653][891]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.05.52:183][891]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BotAI_tmp_C_137' or package '/Engine/Transient'.
+[2015.10.21-15.05.52:183][891]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BotAI_tmp_C_133' or package '/Engine/Transient'.
+[2015.10.21-15.05.52:183][891]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BotAI_tmp_C_168' or package '/Engine/Transient'.
+[2015.10.21-15.05.52:183][891]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BotAI_tmp_C_1' or package '/Engine/Transient'.
+[2015.10.21-15.05.52:184][891]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BotAI_tmp_C_0' or package '/Engine/Transient'.
+[2015.10.21-15.05.52:184][891]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BotAI_tmp_C_167' or package '/Engine/Transient'.
+[2015.10.21-15.05.53:599][937]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.05.53:822][944]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.05.55:850][ 57]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.05.59:916][294]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.00:006][294]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.36:533][371]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.36:559][371]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.36:589][371]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.06.36:603][371]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.06.36:993][371]LogRenderer: Reallocating scene render targets to support 784x624 (Frame:10221).
+[2015.10.21-15.06.47:172][837]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.47:199][837]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.47:274][837]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.06.47:316][837]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001625AC74C0
+[2015.10.21-15.06.47:358][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI_TMP" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/AI_TMP.uasset" SILENT=true
+[2015.10.21-15.06.47:375][837]LogSavePackage: Save=14.364823ms
+[2015.10.21-15.06.47:375][837]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/AI_TMPC42080F54F9C4F99E8A6FAB43C733A4C.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/AI_TMP.uasset'
+[2015.10.21-15.06.47:379][837]LogMetaData: Removing '/Game/Blueprints/AI_TMP.AI_TMP:UserConstructionScript.K2Node_FunctionEntry_572' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2015.10.21-15.06.47:379][837]LogMetaData: Removing '/Game/Blueprints/AI_TMP.SKEL_AI_TMP_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2015.10.21-15.06.47:379][837]LogMetaData: Removing '/Game/Blueprints/AI_TMP.AI_TMP_C' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2015.10.21-15.06.47:379][837]LogMetaData: Removing '/Game/Blueprints/AI_TMP.AI_TMP:EventGraph.K2Node_Event_284' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2015.10.21-15.06.47:379][837]LogMetaData: Removing '/Game/Blueprints/AI_TMP.AI_TMP:EventGraph.K2Node_Event_285' ref from Metadata '/Game/Blueprints/NewBlueprint.PackageMetaData'
+[2015.10.21-15.06.47:399][837]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.47:418][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/AI_TMP" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/AI_TMP.uasset" SILENT=true
+[2015.10.21-15.06.47:490][837]LogSavePackage: Save=13.829494ms
+[2015.10.21-15.06.47:490][837]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/AI_TMPCD0A99854C7895194043ACB8C1B77A74.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/AI_TMP.uasset'
+[2015.10.21-15.06.47:500][837]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.52:460][ 91]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.52:475][ 91]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.52:545][ 91]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.06.52:619][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.06.52:633][ 91]LogSavePackage: Save=11.440214ms
+[2015.10.21-15.06.52:633][ 91]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmp3E606D8649FEEB72477F00BA2F58614E.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.06.52:637][ 91]LogMetaData: Removing '/Game/Blueprints/BotAI_tmp.BotAI_tmp_C' ref from Metadata '/Game/Blueprints/AI_TMP.PackageMetaData'
+[2015.10.21-15.06.52:637][ 91]LogMetaData: Removing '/Game/Blueprints/BotAI_tmp.SKEL_BotAI_tmp_C' ref from Metadata '/Game/Blueprints/AI_TMP.PackageMetaData'
+[2015.10.21-15.06.52:637][ 91]LogMetaData: Removing '/Game/Blueprints/BotAI_tmp.BotAI_tmp:UserConstructionScript.K2Node_FunctionEntry_572' ref from Metadata '/Game/Blueprints/AI_TMP.PackageMetaData'
+[2015.10.21-15.06.52:637][ 91]LogMetaData: Removing '/Game/Blueprints/BotAI_tmp.BotAI_tmp:EventGraph.K2Node_Event_284' ref from Metadata '/Game/Blueprints/AI_TMP.PackageMetaData'
+[2015.10.21-15.06.52:637][ 91]LogMetaData: Removing '/Game/Blueprints/BotAI_tmp.BotAI_tmp:EventGraph.K2Node_Event_285' ref from Metadata '/Game/Blueprints/AI_TMP.PackageMetaData'
+[2015.10.21-15.06.52:657][ 91]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.52:676][ 91]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.06.52:738][ 91]LogSavePackage: Save=11.564605ms
+[2015.10.21-15.06.52:738][ 91]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmp248A03AD446AAD0DA5A31BB451CA921A.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.06.52:748][ 91]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.52:816][ 91]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.53:803][123]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.53:824][123]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.56:107][202]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.06.56:150][202]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001625ADB7E0
+[2015.10.21-15.06.56:166][202]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.56:268][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.06.56:560][202]LogSavePackage: Save=185.735260ms
+[2015.10.21-15.06.56:560][202]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1BD6929FC430CF728495DC0B5B7750BDF.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.06.56:608][202]LogFileHelpers: Saving map 'Level_1' took 0.423
+[2015.10.21-15.06.56:618][202]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/NewBlueprint.uasset" SILENT=true
+[2015.10.21-15.06.56:623][202]LogSavePackage: Save=3.298601ms
+[2015.10.21-15.06.56:623][202]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/NewBlueprint94C965684355F880AEAC629D4452B53B.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/NewBlueprint.uasset'
+[2015.10.21-15.06.57:636][249]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.06.57:655][249]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.02:159][416]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.02:479][416]LogActor:Warning: GameNetworkManager /Engine/Transient.World_14:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.07.09:352][706]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.09:376][706]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.11:612][781]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.11:646][781]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.13:157][826]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.17:175][ 64]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.17:580][ 84]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.28:619][725]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.29:338][766]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.32:743][963]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.40:069][371]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.07.42:137][488]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.08.36:860][948]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.08.36:876][948]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.21-15.08.46:834][534]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.08.57:856][142]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.08.59:864][245]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.02:537][380]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.09.02:585][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001648874540
+[2015.10.21-15.09.02:585][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001632385F80
+[2015.10.21-15.09.02:586][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000161A5DCD60
+[2015.10.21-15.09.02:607][380]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.03:936][380]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.04:121][380]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BotAI_tmp_C_183' or package '/Engine/Transient'.
+[2015.10.21-15.09.04:121][380]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BotAI_tmp_C_3' or package '/Engine/Transient'.
+[2015.10.21-15.09.04:121][380]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_BotAI_tmp_C_2' or package '/Engine/Transient'.
+[2015.10.21-15.09.04:121][380]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_BotAI_tmp_C_186' or package '/Engine/Transient'.
+[2015.10.21-15.09.04:121][380]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_BotAI_tmp_C_185' or package '/Engine/Transient'.
+[2015.10.21-15.09.04:321][380]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001630B01B20
+[2015.10.21-15.09.08:465][557]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.09:090][593]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.10:729][690]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.25:051][947]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.25:079][947]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.25:106][947]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.09.25:116][947]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.09.27:467][ 17]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.29:587][125]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.31:622][223]Cmd: DELETE
+[2015.10.21-15.09.31:622][223]Cmd: ACTOR DELETE
+[2015.10.21-15.09.31:624][223]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.09.31:636][223]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.09.31:695][223]LogEditorActor: Deleted 1 Actors (0.072 secs)
+[2015.10.21-15.09.35:360][439]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.36:332][493]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.44:806][984]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.45:557][ 29]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.52:843][460]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.52:948][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.09.53:242][460]LogSavePackage: Save=188.080612ms
+[2015.10.21-15.09.53:242][460]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1DF85A88F48815C18EA7607BAD496E358.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.09.53:312][460]LogFileHelpers: Saving map 'Level_1' took 0.447
+[2015.10.21-15.09.53:320][460]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.09.53:336][460]LogSavePackage: Save=14.260549ms
+[2015.10.21-15.09.53:337][460]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmpAA179AB64FE53F8E52B3388C68509AD1.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.09.58:561][773]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.09.58:847][786]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.03:927][ 77]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.03:935][ 77]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2015.10.21-15.10.10:653][473]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.10:668][473]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.10.10:742][473]LogSavePackage: Save=14.672720ms
+[2015.10.21-15.10.10:742][473]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmp2723F1F44805AE8206076D94DBC6B376.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.10.12:113][549]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.18:924][927]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.19:565][963]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.20:872][ 40]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.22:139][110]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.28:949][486]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.31:724][649]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.31:747][649]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.10.31:814][649]LogSavePackage: Save=15.097207ms
+[2015.10.21-15.10.31:814][649]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmp7441685E414F3D792279B28C87338464.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.10.35:737][862]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.10.35:756][862]LogPlayLevel: [PIE] Compiling BotAI_tmp before PIE...
+[2015.10.21-15.10.35:908][862]LogPlayLevel: PIE:  Blueprint regeneration took 170 ms (1 blueprints)
+[2015.10.21-15.10.35:908][862]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:10:35 PM)
+[2015.10.21-15.10.35:908][862]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.10.35:913][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004711s)
+[2015.10.21-15.10.35:914][862]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.10.35:915][862]LogPlayLevel: PIE: World Init took: (0.001932s)
+[2015.10.21-15.10.35:915][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.006940s)
+[2015.10.21-15.10.35:973][862]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.10.35:982][862]LogInit: FAudioDevice initialized.
+[2015.10.21-15.10.35:985][862]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.36:179][862]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.10.36:187][862]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.10.36
+[2015.10.21-15.10.36:187][862]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.10.36:188][862]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.10.36:188][862]LogWorld: Bringing up level for play took: 0.006861
+[2015.10.21-15.10.36:226][862]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.829
+[2015.10.21-15.10.37:311][911]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001625A963E0
+[2015.10.21-15.10.38:213][953]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.39:970][ 37]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.10.39:970][ 37]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:10:39 PM)
+[2015.10.21-15.10.39:971][ 37]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.10.39:976][ 37]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005283s)
+[2015.10.21-15.10.39:977][ 37]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.10.39:978][ 37]LogPlayLevel: PIE: World Init took: (0.001799s)
+[2015.10.21-15.10.39:978][ 37]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.007395s)
+[2015.10.21-15.10.39:978][ 37]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.10.40:047][ 37]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.10.40:056][ 37]LogInit: FAudioDevice initialized.
+[2015.10.21-15.10.40:058][ 37]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.40:092][ 37]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.10.40:099][ 37]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.10.40
+[2015.10.21-15.10.40:099][ 37]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.10.40:100][ 37]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.10.40:101][ 37]LogWorld: Bringing up level for play took: 0.007078
+[2015.10.21-15.10.40:140][ 37]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.743
+[2015.10.21-15.10.49:890][599]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000163DBEE980
+[2015.10.21-15.10.50:991][653]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.51:089][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.10.51:380][653]LogSavePackage: Save=184.989334ms
+[2015.10.21-15.10.51:380][653]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_163D05F934EDEA9B019909DA5490BBD25.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.10.51:430][653]LogFileHelpers: Saving map 'Level_1' took 0.423
+[2015.10.21-15.10.54:071][807]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.10.54:933][854]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.01:285][221]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.03:406][346]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.10:797][786]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.14:933][ 34]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.15:287][ 53]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.22:633][488]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.22:648][488]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.11.22:725][488]LogSavePackage: Save=22.156254ms
+[2015.10.21-15.11.22:725][488]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmp38F737B542DA1D50BBC20C83DEF64F42.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.11.23:212][516]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.11.23:229][516]LogPlayLevel: [PIE] Compiling BotAI_tmp before PIE...
+[2015.10.21-15.11.23:380][516]LogPlayLevel: PIE:  Blueprint regeneration took 168 ms (1 blueprints)
+[2015.10.21-15.11.23:381][516]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:11:23 PM)
+[2015.10.21-15.11.23:381][516]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.11.23:387][516]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005574s)
+[2015.10.21-15.11.23:387][516]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.11.23:388][516]LogPlayLevel: PIE: World Init took: (0.001630s)
+[2015.10.21-15.11.23:388][516]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.007458s)
+[2015.10.21-15.11.23:445][516]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.11.23:452][516]LogInit: FAudioDevice initialized.
+[2015.10.21-15.11.23:455][516]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.23:486][516]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.11.23:492][516]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.11.23
+[2015.10.21-15.11.23:492][516]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.11.23:493][516]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.11.23:494][516]LogWorld: Bringing up level for play took: 0.006113
+[2015.10.21-15.11.23:502][516]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor PlayerController_4 (if any of these is None then there's your problem
+[2015.10.21-15.11.23:516][516]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.12
+[2015.10.21-15.11.25:757][634]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016041E6DE0
+[2015.10.21-15.11.27:093][707]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.27:187][707]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.11.27:484][707]LogSavePackage: Save=187.413101ms
+[2015.10.21-15.11.27:484][707]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1D01CF9C74A084B9601270D8CC7CCFFFE.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.11.27:539][707]LogFileHelpers: Saving map 'Level_1' took 0.434
+[2015.10.21-15.11.50:019][ 27]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.11.50:728][ 59]LogActor:Warning: RecastNavMesh /Game/Levels/Level_1.Level_1:PersistentLevel.RecastNavMesh_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.12.10:713][ 79]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.15:343][324]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.26:920][990]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.31:930][279]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.32:589][315]Cmd: MODE GRID=1
+[2015.10.21-15.12.35:188][466]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.35:951][506]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.37:503][596]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.44:767][ 22]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.46:395][116]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.47:468][179]LogEditorViewport: Clicking on Actor (LMB): NavMeshBoundsVolume (NavMeshBoundsVolume)
+[2015.10.21-15.12.47:614][186]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.52:163][448]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.53:366][514]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.56:721][707]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.12.58:805][827]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.04:016][116]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.07:383][304]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.12:409][595]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.14:226][698]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.17:234][872]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.19:403][988]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.22:843][184]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.26:096][374]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.31:424][681]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.34:567][864]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.37:176][  5]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.42:144][290]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.42:468][308]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.13.42:537][308]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.42:677][308]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.13.42:989][308]LogSavePackage: Save=198.366013ms
+[2015.10.21-15.13.42:989][308]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1A5F646F9420AC6EF58BAF794E1F8F6D8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.13.43:047][308]LogFileHelpers: Saving map 'Level_1' took 0.456
+[2015.10.21-15.13.45:402][449]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.50:026][681]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.50:725][708]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.53:429][869]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.13.57:121][ 83]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.00:363][271]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.03:508][451]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.03:991][472]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.04:106][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.14.04:412][472]LogSavePackage: Save=195.991104ms
+[2015.10.21-15.14.04:413][472]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1239F83A1421B951AB2B4BD9A9C6B2931.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.14.04:469][472]LogFileHelpers: Saving map 'Level_1' took 0.447
+[2015.10.21-15.14.05:565][537]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.09:205][723]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.10:022][759]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.14.10:023][759]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:14:10 PM)
+[2015.10.21-15.14.10:023][759]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.14.10:031][759]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007715s)
+[2015.10.21-15.14.10:032][759]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.14.10:034][759]LogPlayLevel: PIE: World Init took: (0.002666s)
+[2015.10.21-15.14.10:034][759]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.010752s)
+[2015.10.21-15.14.10:102][759]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.14.10:110][759]LogInit: FAudioDevice initialized.
+[2015.10.21-15.14.10:113][759]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.10:153][759]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.14.10:160][759]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.14.10:160][759]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.14.10
+[2015.10.21-15.14.10:160][759]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.14.10:161][759]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.14.10:162][759]LogWorld: Bringing up level for play took: 0.007388
+[2015.10.21-15.14.10:171][759]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:None Controller:None controlling Pawn:NULL with goal actor PlayerController_5 (if any of these is None then there's your problem
+[2015.10.21-15.14.10:201][759]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.805
+[2015.10.21-15.14.22:944][486]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000162950ACA0
+[2015.10.21-15.14.34:148][112]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.35:565][197]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.41:074][524]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.41:090][524]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.14.41:168][524]LogSavePackage: Save=24.956474ms
+[2015.10.21-15.14.41:168][524]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmpA30E631D43EECDEB9DE7C692974FC931.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.14.41:657][552]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.14.41:674][552]LogPlayLevel: [PIE] Compiling BotAI_tmp before PIE...
+[2015.10.21-15.14.41:829][552]LogPlayLevel: PIE:  Blueprint regeneration took 170 ms (1 blueprints)
+[2015.10.21-15.14.41:829][552]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:14:41 PM)
+[2015.10.21-15.14.41:829][552]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.14.41:835][552]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005892s)
+[2015.10.21-15.14.41:836][552]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.14.41:837][552]LogPlayLevel: PIE: World Init took: (0.001719s)
+[2015.10.21-15.14.41:837][552]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.007848s)
+[2015.10.21-15.14.41:897][552]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.14.41:904][552]LogInit: FAudioDevice initialized.
+[2015.10.21-15.14.41:907][552]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.41:938][552]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.14.41:944][552]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.14.41:944][552]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.14.41
+[2015.10.21-15.14.41:944][552]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.14.41:945][552]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.14.41:946][552]LogWorld: Bringing up level for play took: 0.006154
+[2015.10.21-15.14.41:968][552]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.572
+[2015.10.21-15.14.46:313][793]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001640A50F40
+[2015.10.21-15.14.46:956][828]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.14.47:057][828]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.14.47:353][828]LogSavePackage: Save=187.421722ms
+[2015.10.21-15.14.47:353][828]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_18BFCBCE844FA719B1286DD8DFF149899.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.14.47:407][828]LogFileHelpers: Saving map 'Level_1' took 0.430
+[2015.10.21-15.14.55:464][238]LogEditorViewport: Clicking on Actor (LMB): BotAI_tmp_C (BotAI_tmp)
+[2015.10.21-15.15.25:609][709]Cmd: TRANSACTION UNDO
+[2015.10.21-15.15.25:609][709]LogEditorTransaction: Undo Move Actors
+[2015.10.21-15.15.25:636][709]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.15.27:119][773]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp)
+[2015.10.21-15.15.28:171][822]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp2)
+[2015.10.21-15.15.29:578][891]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp3)
+[2015.10.21-15.15.32:623][ 47]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2015.10.21-15.15.48:596][847]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2015.10.21-15.15.48:906][860]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2015.10.21-15.15.50:501][939]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.15.50:502][939]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:15:50 PM)
+[2015.10.21-15.15.50:502][939]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.15.50:510][939]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007599s)
+[2015.10.21-15.15.50:511][939]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.15.50:512][939]LogPlayLevel: PIE: World Init took: (0.002549s)
+[2015.10.21-15.15.50:513][939]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.010483s)
+[2015.10.21-15.15.50:591][939]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.15.50:598][939]LogInit: FAudioDevice initialized.
+[2015.10.21-15.15.50:601][939]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.15.50:639][939]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.15.50:646][939]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.15.50:646][939]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.15.50
+[2015.10.21-15.15.50:647][939]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_7 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.15.50:647][939]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.15.50:649][939]LogWorld: Bringing up level for play took: 0.008165
+[2015.10.21-15.15.50:741][939]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.655
+[2015.10.21-15.16.00:781][518]LogCharacterMovement: PlayerBlueprint_C_24 is stuck and failed to move!
+[2015.10.21-15.16.00:802][519]LogCharacterMovement: PlayerBlueprint_C_24 is stuck and failed to move!
+[2015.10.21-15.16.02:208][590]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.16.02:513][605]LogCharacterMovement: PlayerBlueprint_C_15 is stuck and failed to move!
+[2015.10.21-15.16.02:515][605]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.16.02:535][606]LogCharacterMovement: PlayerBlueprint_C_15 is stuck and failed to move!
+[2015.10.21-15.16.02:537][606]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.16.02:537][606]LogCharacterMovement: PlayerBlueprint_C_22 is stuck and failed to move!
+[2015.10.21-15.16.02:555][607]LogCharacterMovement: PlayerBlueprint_C_15 is stuck and failed to move!
+[2015.10.21-15.16.02:575][608]LogCharacterMovement: PlayerBlueprint_C_15 is stuck and failed to move!
+[2015.10.21-15.16.02:595][609]LogCharacterMovement: PlayerBlueprint_C_15 is stuck and failed to move!
+[2015.10.21-15.16.02:614][610]LogCharacterMovement: PlayerBlueprint_C_15 is stuck and failed to move!
+[2015.10.21-15.16.02:635][611]LogCharacterMovement: PlayerBlueprint_C_16 is stuck and failed to move!
+[2015.10.21-15.16.02:655][612]LogCharacterMovement: PlayerBlueprint_C_16 is stuck and failed to move!
+[2015.10.21-15.16.03:630][660]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.16.10:423][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001630B3DC60
+[2015.10.21-15.16.18:514][413]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.18:622][413]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.16.18:924][413]LogSavePackage: Save=192.782410ms
+[2015.10.21-15.16.18:924][413]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1247EA9EC438C2A1A185C67B83D790854.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.16.18:983][413]LogFileHelpers: Saving map 'Level_1' took 0.443
+[2015.10.21-15.16.20:573][475]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.21:162][509]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.21:190][510]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.21:736][542]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.22:553][583]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.25:317][742]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.25:372][743]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.25:408][744]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.25:498][749]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.27:756][884]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.27:779][885]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.27:902][887]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.34:395][229]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.36:398][341]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.37:253][390]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.42:972][666]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.43:628][705]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.44:424][752]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.44:451][752]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.44:470][752]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.44:507][752]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/NewMaterial" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/NewMaterial.uasset" SILENT=true
+[2015.10.21-15.16.44:527][752]LogSavePackage: Save=17.898657ms
+[2015.10.21-15.16.44:527][752]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/NewMaterial6EDA1ECF418FB2C30C9A25B41660D9B9.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/NewMaterial.uasset'
+[2015.10.21-15.16.44:535][752]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.44:570][752]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.16.46:093][814]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.46:117][814]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.16.46:243][814]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.16.46:250][814]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.16.48:967][963]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.16.50:283][ 39]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.16.50:283][ 39]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.16.50:283][ 39]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.16.53:504][230]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.16.53:510][230]LogMaterial: 0.000100 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.16.55:955][369]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.16.55:955][369]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.16.55:955][369]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.16.56:211][377]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.16.56:218][377]LogMaterial: 0.000122 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.16.57:240][435]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.17.00:558][456]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.17.00:590][457]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.17.00:591][457]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.17.00:591][457]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.18.15:027][153]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.17:821][319]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.18.17:827][319]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.18.17:828][319]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.21-15.18.19:774][424]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.21:597][529]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.18.21:597][529]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.18.21:597][529]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.18.28:862][964]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.18.28:869][964]LogMaterial: 0.000086 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.18.28:894][964]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.21-15.18.31:437][114]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.18.31:438][114]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.18.31:438][114]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.18.31:870][139]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.32:597][182]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.18.32:604][182]LogMaterial: 0.000078 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.18.32:632][182]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.21-15.18.34:449][285]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.35:183][327]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.18.35:183][327]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.18.35:183][327]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.18.38:694][537]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.18.38:701][537]LogMaterial: 0.000075 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.18.38:729][537]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.21-15.18.40:011][612]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.40:682][650]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.41:217][681]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.41:608][704]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.18.41:608][704]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.18.41:608][704]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.18.45:917][962]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.58:361][701]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.18.58:369][701]LogMaterial: 0.000081 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.18.58:398][701]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2015.10.21-15.18.59:753][781]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.18.59:851][781]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.18.59:875][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/NewMaterial" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/NewMaterial.uasset" SILENT=true
+[2015.10.21-15.18.59:883][781]LogSavePackage: Save=5.882882ms
+[2015.10.21-15.18.59:883][781]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/NewMaterialBB66C934445D633FD3D9CB8880FF3AD4.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/NewMaterial.uasset'
+[2015.10.21-15.19.00:837][836]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.19.00:837][836]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.19.00:837][836]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.19.04:597][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.04:615][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.04:632][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.04:669][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Green" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Green.uasset" SILENT=true
+[2015.10.21-15.19.04:688][ 30]LogSavePackage: Save=16.808292ms
+[2015.10.21-15.19.04:688][ 30]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/GreenD67480E74AC4F57488AB27A9DD245B80.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Green.uasset'
+[2015.10.21-15.19.04:697][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.04:773][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.05:996][ 80]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.06:581][114]LogMaterial:Warning: Material /Game/Assets/Materials/Green.Green needed to have new flag set bUsedWithStaticLighting !
+[2015.10.21-15.19.06:597][114]LogMaterial:Warning: Material /Engine/Transient.NewMaterial needed to have new flag set bUsedWithStaticLighting !
+[2015.10.21-15.19.06:601][114]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.19.06:611][114]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.19.06:613][114]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2015.10.21-15.19.06:671][114]LogMaterial: 0.000109 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.19.10:785][322]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2015.10.21-15.19.10:785][322]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.19.10:785][322]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.19.10:785][322]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.21-15.19.13:432][455]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.13:601][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.19.14:058][455]LogSavePackage: Save=289.542480ms
+[2015.10.21-15.19.14:058][455]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1D6777FA54FB2C54B526BD286A258C5F9.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.19.14:145][455]LogFileHelpers: Saving map 'Level_1' took 0.689
+[2015.10.21-15.19.14:156][455]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Green" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Green.uasset" SILENT=true
+[2015.10.21-15.19.14:243][455]LogSavePackage: Save=6.372232ms
+[2015.10.21-15.19.14:243][455]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/GreenF777F686407B342FE85058BE7D596851.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Green.uasset'
+[2015.10.21-15.19.14:809][481]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.18:253][650]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.27:147][128]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.27:255][128]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.19.27:562][128]LogSavePackage: Save=199.871826ms
+[2015.10.21-15.19.27:562][128]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_19B54E640462428B49DD81A88ECB34EE3.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.19.27:618][128]LogFileHelpers: Saving map 'Level_1' took 0.462
+[2015.10.21-15.19.42:931][933]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.52:965][490]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.53:084][490]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.19.53:387][490]LogSavePackage: Save=191.249908ms
+[2015.10.21-15.19.53:387][490]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_14A2CD62642C33551C8876DAD85486ED5.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.19.53:439][490]LogFileHelpers: Saving map 'Level_1' took 0.455
+[2015.10.21-15.19.53:985][523]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.56:344][523]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2015.10.21-15.19.56:376][523]LogMaterial: 0.000090 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.19.56:379][523]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.19.56:406][523]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2015.10.21-15.19.56:474][523]LogMaterial: Missing cached shader map for material Green, compiling. 
+[2015.10.21-15.19.56:497][523]LogMaterial: 0.002262 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.19.58:463][616]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.01:921][784]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001632479A80
+[2015.10.21-15.20.01:951][784]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.02:120][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.20.02:564][784]LogSavePackage: Save=281.158630ms
+[2015.10.21-15.20.02:564][784]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1CD5CF065493417ADEBBB01941FF0F097.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.20.02:644][784]LogFileHelpers: Saving map 'Level_1' took 0.668
+[2015.10.21-15.20.05:428][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Green" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Green.uasset" SILENT=true
+[2015.10.21-15.20.05:497][784]LogSavePackage: Save=16.460575ms
+[2015.10.21-15.20.05:497][784]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Green1F67B7E041DCC7F70E63AABD32509B81.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Green.uasset'
+[2015.10.21-15.20.11:591][100]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.17:959][434]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.18:257][451]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.20:235][569]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.25:922][879]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.25:938][879]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.25:952][879]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.25:991][879]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Black" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Black.uasset" SILENT=true
+[2015.10.21-15.20.26:011][879]LogSavePackage: Save=17.065283ms
+[2015.10.21-15.20.26:011][879]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BlackDFB2EC8D422E3026FA2C039B03E4EA7D.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Black.uasset'
+[2015.10.21-15.20.26:020][879]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.28:159][972]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2015.10.21-15.20.29:990][ 52]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.34:325][257]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.41:369][609]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube2)
+[2015.10.21-15.20.41:757][626]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube)
+[2015.10.21-15.20.42:272][651]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube3)
+[2015.10.21-15.20.42:895][681]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube4)
+[2015.10.21-15.20.43:292][699]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube5)
+[2015.10.21-15.20.43:783][722]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube17)
+[2015.10.21-15.20.44:223][743]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube16)
+[2015.10.21-15.20.44:787][770]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube18)
+[2015.10.21-15.20.45:317][796]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube19)
+[2015.10.21-15.20.45:836][821]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube20)
+[2015.10.21-15.20.48:193][921]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.49:161][978]LogMaterial:Warning: Material /Game/Assets/Materials/Black.Black needed to have new flag set bUsedWithStaticLighting !
+[2015.10.21-15.20.49:167][978]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.20.49:178][978]LogMaterial: 0.000045 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.20.53:570][192]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.53:576][192]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.20.53:724][192]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.20.53:735][192]LogMaterial: 0.000041 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.20.55:667][298]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.20.58:945][485]MaterialEditorStats: Info Base pass shader with static lighting: 63 instructions
+[2015.10.21-15.20.58:945][485]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.20.58:945][485]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.20.58:945][485]MaterialEditorStats: Info Texture samplers: 2/16
+[2015.10.21-15.21.00:244][561]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.21.00:255][561]LogMaterial: 0.000114 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.21.00:255][561]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.10.21-15.21.01:603][638]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.02:222][674]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.21.02:234][674]LogMaterial: 0.000053 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.21.02:263][674]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2015.10.21-15.21.03:775][758]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.03:945][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.21.04:387][758]LogSavePackage: Save=281.910736ms
+[2015.10.21-15.21.04:387][758]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1093FC4A54305759C49ECCE8771836EB8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.21.04:465][758]LogFileHelpers: Saving map 'Level_1' took 0.667
+[2015.10.21-15.21.04:475][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Blakc" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Blakc.uasset" SILENT=true
+[2015.10.21-15.21.04:483][758]LogSavePackage: Save=4.673463ms
+[2015.10.21-15.21.04:483][758]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Blakc07DD852F449FE6CA87B5E9A089F89883.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Blakc.uasset'
+[2015.10.21-15.21.04:501][758]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Black" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Black.uasset" SILENT=true
+[2015.10.21-15.21.04:595][758]LogSavePackage: Save=7.350523ms
+[2015.10.21-15.21.04:595][758]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BlackFD3D67C34A081E8293559DB411EBEDDE.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Black.uasset'
+[2015.10.21-15.21.05:242][796]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.06:988][796]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.21.07:019][796]LogMaterial: 0.000034 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.21.07:021][796]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.07:054][796]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.21.07:120][796]LogMaterial: Missing cached shader map for material Black, compiling. 
+[2015.10.21-15.21.07:141][796]LogMaterial: 0.002143 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.21.13:366][ 77]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001629509C60
+[2015.10.21-15.21.13:396][ 77]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.15:414][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/Black" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Black.uasset" SILENT=true
+[2015.10.21-15.21.15:483][ 77]LogSavePackage: Save=15.793465ms
+[2015.10.21-15.21.15:483][ 77]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BlackB6C3158848DD9578210298B7FF9D5232.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/Black.uasset'
+[2015.10.21-15.21.19:054][248]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.20:461][321]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.21:645][381]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.23:976][496]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.25:039][548]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.26:553][628]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.28:564][727]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.29:690][780]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.30:884][840]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.38:455][201]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.38:602][201]LogRenderer: Reallocating scene render targets to support 888x624 (Frame:39135).
+[2015.10.21-15.21.42:571][437]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.45:000][573]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.46:633][664]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.48:586][774]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.51:517][948]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.53:945][ 87]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.56:621][237]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.21.56:750][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.21.57:057][237]LogSavePackage: Save=194.229111ms
+[2015.10.21-15.21.57:057][237]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1B53E8F9245D8B348787DD9A577C99AE0.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.21.57:116][237]LogFileHelpers: Saving map 'Level_1' took 0.469
+[2015.10.21-15.21.57:140][237]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Guns/rifle" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Guns/rifle.uasset" SILENT=true
+[2015.10.21-15.21.57:217][237]LogSavePackage: Save=15.967939ms
+[2015.10.21-15.21.57:218][237]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/rifle241244C1412D565E6D325A9F17C5A2F8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Guns/rifle.uasset'
+[2015.10.21-15.22.03:047][539]LogEditorViewport: Clicking on Actor (LMB): PistolPickup_C (PistolPickup)
+[2015.10.21-15.22.06:806][719]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.08:618][816]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.14:786][175]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001632CD3420
+[2015.10.21-15.22.14:787][175]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.14:833][175]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Guns/pistol" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Guns/pistol.uasset" SILENT=true
+[2015.10.21-15.22.14:909][175]LogSavePackage: Save=16.639975ms
+[2015.10.21-15.22.14:910][175]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/pistol8FE0C5A44C4E490E865C9E950096B2B6.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Guns/pistol.uasset'
+[2015.10.21-15.22.23:206][586]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.23:389][596]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.24:733][674]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.29:949][953]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.29:959][953]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.30:073][953]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.30:080][953]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.31:325][ 19]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.33:645][153]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.22.33:645][153]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.22.33:645][153]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.22.36:658][333]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.36:664][333]LogMaterial: 0.000067 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.36:665][333]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.10.21-15.22.39:154][478]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.39:361][490]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.22.39:361][490]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.22.39:361][490]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.22.39:595][504]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.39:602][504]LogMaterial: 0.000057 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.39:626][504]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.10.21-15.22.40:903][579]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.42:323][662]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 31 instructions
+[2015.10.21-15.22.42:323][662]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2015.10.21-15.22.42:323][662]MaterialEditorStats: Info Texture samplers: 0/16
+[2015.10.21-15.22.43:414][727]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.43:420][727]LogMaterial: 0.000076 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.43:445][727]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_2, compiling. 
+[2015.10.21-15.22.45:202][826]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001625CBE340
+[2015.10.21-15.22.45:228][826]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.45:285][826]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/White" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/White.uasset" SILENT=true
+[2015.10.21-15.22.45:311][826]LogSavePackage: Save=22.508078ms
+[2015.10.21-15.22.45:311][826]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/WhiteFE9FC2514B150518EE8A929B56DE3990.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/White.uasset'
+[2015.10.21-15.22.45:703][848]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.49:003][848]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.49:030][848]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.49:032][848]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.49:054][848]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.49:091][848]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.49:106][848]LogMaterial: 0.002145 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.51:958][989]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.52:419][ 14]LogMaterial:Warning: Material /Game/Assets/Materials/White.White needed to have new flag set bUsedWithStaticLighting !
+[2015.10.21-15.22.52:425][ 14]LogMaterial: Missing cached shader map for material White, compiling. 
+[2015.10.21-15.22.52:468][ 14]LogMaterial: 0.000070 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2015.10.21-15.22.55:388][155]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001668E05DA0
+[2015.10.21-15.22.55:389][155]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.22.55:559][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.22.56:004][155]LogSavePackage: Save=287.360107ms
+[2015.10.21-15.22.56:004][155]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1F7B2CCE940C2AEDC03F82A8F0AED4A79.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.22.56:086][155]LogFileHelpers: Saving map 'Level_1' took 0.679
+[2015.10.21-15.22.59:312][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Materials/White" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/White.uasset" SILENT=true
+[2015.10.21-15.22.59:385][155]LogSavePackage: Save=15.377599ms
+[2015.10.21-15.22.59:385][155]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/White0119F2EF459436B38254B58F5D92E878.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Assets/Materials/White.uasset'
+[2015.10.21-15.23.07:070][553]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.23.07:071][553]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:23:07 PM)
+[2015.10.21-15.23.07:071][553]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.23.07:080][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008324s)
+[2015.10.21-15.23.07:081][553]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.23.07:082][553]LogPlayLevel: PIE: World Init took: (0.001886s)
+[2015.10.21-15.23.07:082][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.010534s)
+[2015.10.21-15.23.07:154][553]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.23.07:163][553]LogInit: FAudioDevice initialized.
+[2015.10.21-15.23.07:166][553]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.23.07:202][553]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.23.07:211][553]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.23.07:212][553]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.23.07
+[2015.10.21-15.23.07:212][553]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_8 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.23.07:212][553]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.23.07:213][553]LogWorld: Bringing up level for play took: 0.009723
+[2015.10.21-15.23.07:308][553]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.088
+[2015.10.21-15.23.19:260][209]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.23.19:280][210]LogCharacterMovement: PlayerBlueprint_C_28 is stuck and failed to move!
+[2015.10.21-15.23.19:301][211]LogCharacterMovement: PlayerBlueprint_C_28 is stuck and failed to move!
+[2015.10.21-15.23.19:322][212]LogCharacterMovement: PlayerBlueprint_C_28 is stuck and failed to move!
+[2015.10.21-15.23.19:322][212]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.23.19:346][213]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.23.19:367][214]LogCharacterMovement: PlayerBlueprint_C_28 is stuck and failed to move!
+[2015.10.21-15.23.21:403][318]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.21:459][321]LogCharacterMovement: PlayerBlueprint_C_33 is stuck and failed to move!
+[2015.10.21-15.23.22:518][380]LogCharacterMovement: PlayerBlueprint_C_33 is stuck and failed to move!
+[2015.10.21-15.23.24:541][489]LogCharacterMovement: PlayerBlueprint_C_33 is stuck and failed to move!
+[2015.10.21-15.23.24:960][511]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:114][519]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:115][519]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.25:133][520]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:196][523]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:248][526]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:265][527]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:302][529]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:322][530]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:368][532]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:383][533]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:401][534]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:579][543]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.25:651][547]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.26:097][570]LogCharacterMovement: PlayerBlueprint_C_27 is stuck and failed to move!
+[2015.10.21-15.23.32:039][895]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.32:056][896]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.32:093][898]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.32:164][902]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.32:185][903]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.32:204][904]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.32:240][906]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.33:662][984]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.33:914][998]LogCharacterMovement: PlayerBlueprint_C_35 is stuck and failed to move!
+[2015.10.21-15.23.35:124][ 66]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:158][ 68]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:191][ 70]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:224][ 72]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:241][ 73]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:258][ 74]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:274][ 75]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:291][ 76]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:308][ 77]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:325][ 78]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:359][ 80]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:360][ 80]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:376][ 81]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:392][ 82]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:409][ 83]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:425][ 84]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:426][ 84]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:442][ 85]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:459][ 86]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:459][ 86]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:492][ 88]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:508][ 89]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:525][ 90]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:542][ 91]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:559][ 92]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:676][ 99]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:693][100]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:708][101]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:727][102]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:776][105]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:776][105]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:792][106]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:809][107]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.23.35:827][108]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:876][111]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.35:894][112]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.23.45:309][670]LogCharacterMovement: PlayerBlueprint_C_34 is stuck and failed to move!
+[2015.10.21-15.23.45:328][671]LogCharacterMovement: PlayerBlueprint_C_34 is stuck and failed to move!
+[2015.10.21-15.23.45:362][673]LogCharacterMovement: PlayerBlueprint_C_34 is stuck and failed to move!
+[2015.10.21-15.23.45:379][674]LogCharacterMovement: PlayerBlueprint_C_34 is stuck and failed to move!
+[2015.10.21-15.23.45:908][704]LogCharacterMovement: PlayerBlueprint_C_32 is stuck and failed to move!
+[2015.10.21-15.23.49:612][910]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000016282453A0
+[2015.10.21-15.23.58:804][391]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.23.58:804][391]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:23:58 PM)
+[2015.10.21-15.23.58:804][391]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.23.58:814][391]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009520s)
+[2015.10.21-15.23.58:815][391]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.23.58:816][391]LogPlayLevel: PIE: World Init took: (0.001732s)
+[2015.10.21-15.23.58:816][391]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.011575s)
+[2015.10.21-15.23.58:882][391]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.23.58:891][391]LogInit: FAudioDevice initialized.
+[2015.10.21-15.23.58:895][391]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.23.58:932][391]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.23.58:941][391]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.23.58:941][391]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.23.58
+[2015.10.21-15.23.58:941][391]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_9 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.23.58:942][391]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_10 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.23.58:943][391]LogWorld: Bringing up level for play took: 0.008488
+[2015.10.21-15.23.59:029][391]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.367
+[2015.10.21-15.24.23:501][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001607481DA0
+[2015.10.21-15.24.38:036][548]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.00:207][837]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.00:716][866]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.01:448][905]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.25.09:699][383]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.21-15.25.20:715][ 33]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.21:214][ 55]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.28:402][470]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.28:979][498]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.39:097][ 92]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.40:526][170]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.49:586][682]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.51:210][774]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.25.52:668][774]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.21-15.25.53:728][810]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.21-15.25.54:081][810]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000001643938540
+[2015.10.21-15.25.54:099][810]LogWindows:Error: Windows GetLastError: Operacja ukończona pomyślnie. (0)
+[2015.10.21-15.25.54:213][810]LogCrashTracker: 
+
+
+[2015.10.21-15.26.26:704][810]LogCrashTracker: 
+
+
+[2015.10.21-15.26.26:704][810]LogWindows: === Critical error: ===
+Assertion failed: NewMappedIndexPtr [File:D:\BuildFarm\buildmachine_++depot+UE4-Releases+4.8\Engine\Source\Editor\Kismet\Private\FindInBlueprintManager.cpp] [Line: 1339] 
+
+
+
+KERNELBASE.dll {0x00007ff87466a1c8} + 0 bytes
+UE4Editor-Core.dll!FOutputDeviceWindowsError::Serialize() {0x00007ff84ca77c0f} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FOutputDevice::Logf__VA() {0x00007ff84c9310b8} + 159 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FDebug::AssertFailed() {0x00007ff84c901e72} + 65 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!FFindInBlueprintSearchManager::CleanCache() {0x00007ff8401404d3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!FFindInBlueprintSearchManager::UnpauseFindInBlueprintSearch() {0x00007ff8401e988e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Kismet.dll!TBaseRawMethodDelegateInstance<0,FFindInBlueprintSearchManager,void __cdecl(void)>::ExecuteIfSafe() {0x00007ff8401707ee} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!TBaseMulticastDelegate<void>::Broadcast() {0x00007ff84cf1538e} + 11 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!CollectGarbageInternal() {0x00007ff84cf18db0} + 12 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-CoreUObject.dll!CollectGarbage() {0x00007ff84cf18315} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-UnrealEd.dll!FEditorFileUtils::SaveDirtyPackages() {0x00007ff840b2dab3} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::SaveAll() {0x00007ff837eac929} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<void __cdecl(void)>::ExecuteIfSafe() {0x00007ff837e910f7} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FUICommandList::ConditionalProcessCommandBindings() {0x00007ff84c282539} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FUICommandList::ProcessCommandBindings() {0x00007ff84c2d659c} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!FMainFrameActionCallbacks::OnUnhandledKeyDownEvent() {0x00007ff837ea483e} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!TTupleImpl<TIntegerSequence<> >::ApplyAfter_ExplicitReturnType<FReply,FReply (__cdecl*const & __ptr64)(FKeyEvent const & __ptr64),FKeyEvent const & __ptr64>() {0x00007ff837e679af} + 11 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-MainFrame.dll!TBaseStaticDelegateInstance<FReply __cdecl(FKeyEvent const & __ptr64)>::Execute() {0x00007ff837e90bc1} + 24 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!TBaseDelegate<FReply,FKeyEvent const & __ptr64>::Execute() {0x00007ff84c2929ba} + 6 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::ProcessKeyDownEvent() {0x00007ff84c2d7468} + 22 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Slate.dll!FSlateApplication::OnKeyDown() {0x00007ff84c2c48e6} + 14 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessDeferredMessage() {0x00007ff84ca6d483} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::DeferMessage() {0x00007ff84ca549d1} + 74 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::ProcessMessage() {0x00007ff84ca6edc3} + 44 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor-Core.dll!FWindowsApplication::AppWndProc() {0x00007ff84ca4e5ba} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+USER32.dll {0x00007ff874ff00dc} + 0 bytes
+USER32.dll {0x00007ff874fefc07} + 0 bytes
+UE4Editor-Core.dll!FWindowsPlatformMisc::PumpMessages() {0x00007ff84ca70186} + 48 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!FEngineLoop::Tick() {0x00007ff62a9f3c7a} + 8 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMain() {0x00007ff62a9e49cc} + 0 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!GuardedMainWrapper() {0x00007ff62a9e4a4a} + 5 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!WinMain() {0x00007ff62a9f65c9} + 17 bytes [d:\buildfarm\buildmachine_++depot+ue4-releases+4.8\engine\sou
+UE4Editor.exe!__tmainCRTStartup() {0x00007ff62a9f75d9} + 21 bytes [f:\dd\vctools\crt\crtw32\dllstuff\crtexe.c:618]
+KERNEL32.DLL {0x00007ff876d62d92} + 0 bytes
+ntdll.dll {0x00007ff877159f64} + 0 bytes
+ntdll.dll {0x00007ff877159f64} + 0 bytes
+

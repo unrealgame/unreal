@@ -1,0 +1,983 @@
+﻿[2015.10.17-22.20.21:583][  0]Log file open, 10/18/15 00:20:21
+[2015.10.17-22.20.21:583][  0]LogInit:Display: Running engine for game: FPS_Game
+[2015.10.17-22.20.21:583][  0]LogInit:Display: RandInit(934375355) SRandInit(934375356).
+[2015.10.17-22.20.21:583][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.17-22.20.21:583][  0]LogStats: Stats thread started
+[2015.10.17-22.20.21:583][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.17-22.20.21:583][  0]LogInit: API Version: 2579680
+[2015.10.17-22.20.21:583][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.10.17-22.20.21:583][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.17-22.20.21:583][  0]LogInit: Build Configuration: Development
+[2015.10.17-22.20.21:583][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.10.17-22.20.21:583][  0]LogInit: Command line: 
+[2015.10.17-22.20.21:583][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.10.17-22.20.21:583][  0]LogInit: Rocket: 1
+[2015.10.17-22.20.21:604][  0]LogInit: Using libcurl 7.41.0
+[2015.10.17-22.20.21:604][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.17-22.20.21:604][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.17-22.20.21:604][  0]LogInit:  - other features:
+[2015.10.17-22.20.21:604][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.17-22.20.21:604][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.17-22.20.21:604][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.17-22.20.21:604][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.17-22.20.21:604][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.17-22.20.21:604][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.17-22.20.21:604][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.17-22.20.21:604][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.17-22.20.21:604][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.17-22.20.21:604][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.17-22.20.21:625][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.17-22.20.21:648][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.17-22.20.21:661][  0]LogInit: Object subsystem initialized
+[2015.10.17-22.20.21:662][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.17-22.20.21:662][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.17-22.20.21:662][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.17-22.20.21:662][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.17-22.20.21:662][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.17-22.20.21:662][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.17-22.20.21:662][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.17-22.20.21:663][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.17-22.20.21:673][  0]LogInit: Computer: DESKTOP-6RAQE7I
+[2015.10.17-22.20.21:673][  0]LogInit: User: mrcmo
+[2015.10.17-22.20.21:673][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.17-22.20.21:673][  0]LogInit: High frequency timer resolution =2.435884 MHz
+[2015.10.17-22.20.21:673][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.17-22.20.21:673][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.17-22.20.21:673][  0]LogMemory: Process Physical Memory: 50.53 MB used, 50.53 MB peak
+[2015.10.17-22.20.21:673][  0]LogMemory: Process Virtual Memory: 24.82 MB used, 24.82 MB peak
+[2015.10.17-22.20.21:673][  0]LogMemory: Physical Memory: 3905.45 MB used, 8077.84 MB total
+[2015.10.17-22.20.21:673][  0]LogMemory: Virtual Memory: 311.56 MB used, 134217728.00 MB total
+[2015.10.17-22.20.21:706][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.10.17-22.20.21:998][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.10.17-22.20.22:531][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630M     (Feature Level 11_0)
+[2015.10.17-22.20.22:531][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.10.17-22.20.22:550][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 630M     (Feature Level 11_0)
+[2015.10.17-22.20.22:550][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.17-22.20.22:553][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.17-22.20.22:553][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.17-22.20.22:553][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.17-22.20.22:559][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.20.22:559][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.17-22.20.22:559][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.17-22.20.22:571][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.17-22.20.22:589][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.17-22.20.23:537][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.10.17-22.20.23:555][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.17-22.20.23:574][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.17-22.20.23:592][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.17-22.20.23:612][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.17-22.20.23:627][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.17-22.20.23:643][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.17-22.20.23:660][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.17-22.20.23:676][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.17-22.20.23:692][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.17-22.20.23:709][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.17-22.20.23:725][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.17-22.20.23:784][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.17-22.20.23:800][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.17-22.20.23:815][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.17-22.20.23:833][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.17-22.20.23:833][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.17-22.20.24:100][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.17-22.20.24:165][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.17-22.20.24:165][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.10.17-22.20.24:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.17-22.20.24:165][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.17-22.20.24:165][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.17-22.20.24:165][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.17-22.20.24:343][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.17-22.20.24:355][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mrcmo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.17-22.20.24:644][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.17-22.20.24:741][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.17-22.20.24:741][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.17-22.20.24:775][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.17-22.20.24:775][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.17-22.20.25:147][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.17-22.20.26:304][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.17-22.20.26:725][  0]SourceControl: Info Source control is disabled
+[2015.10.17-22.20.26:726][  0]SourceControl: Info Source control is disabled
+[2015.10.17-22.20.26:739][  0]SourceControl: Info Source control is disabled
+[2015.10.17-22.20.26:752][  0]SourceControl: Info Source control is disabled
+[2015.10.17-22.20.27:050][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.10.17-22.20.27:050][  0]LogUObjectAllocator: 5409248 out of 0 bytes used by permanent object pool.
+[2015.10.17-22.20.27:136][  0]LogEngine: Initializing Engine...
+[2015.10.17-22.20.27:140][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.17-22.20.27:141][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.10.17-22.20.27:336][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.17-22.20.27:340][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.20.27:361][  0]LogInit: FAudioDevice initialized.
+[2015.10.17-22.20.27:390][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.17-22.20.27:396][  0]LogInit: Texture streaming: Disabled
+[2015.10.17-22.20.27:426][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.17-22.20.27:426][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.17-22.20.27:426][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 79bddb9f464d20ee9f177c986d77ef1a|9dd5e3bebceb455facde07c8901c54b2|2e2e6e00-0e59-40fc-8d54-e5025d4ae304
+[2015.10.17-22.20.27:427][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.17-22.20.27:461][  0]LogInit: Transaction tracking system initialized
+[2015.10.17-22.20.27:658][  0]BlueprintLog: New page: Editor Load
+[2015.10.17-22.20.27:709][  0]LogAssetRegistry: FAssetRegistry took 0.0114 seconds to start up
+[2015.10.17-22.20.27:709][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.17-22.20.28:958][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.10.17-22.20.28:959][  0]LogConsoleResponse:Display: 
+[2015.10.17-22.20.29:139][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.17-22.20.29:462][  0]SourceControl: Info Source control is disabled
+[2015.10.17-22.20.29:462][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.17-22.20.29:463][  0]LightingResults: New page: Lighting Build
+[2015.10.17-22.20.29:495][  0]MapCheck: New page: Map Check
+[2015.10.17-22.20.29:495][  0]LightingResults: New page: Lighting Build
+[2015.10.17-22.20.29:518][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0CCA0E200
+[2015.10.17-22.20.30:227][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.17-22.20.30:236][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.17-22.20.30:247][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.17-22.20.30:308][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.988ms to complete.
+[2015.10.17-22.20.30:308][  0]LogFileHelpers: Loading map 'Template_Default' took 0.846
+[2015.10.17-22.20.30:426][  0]LogCollectionManager: Loaded 0 collections in 0.004608 seconds
+[2015.10.17-22.20.30:439][  0]LogContentBrowser: Native class hierarchy populated in 0.0127 seconds. Added 1792 classes and 301 folders.
+[2015.10.17-22.20.30:512][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.17-22.20.30:557][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.17-22.20.30:641][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2015.10.17-22.20.30:728][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.17-22.20.30:730][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.20.30:733][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.17-22.20.30:759][  0]LogLoad: Full Startup: 11.23 seconds (BP compile: 0.31 seconds)
+[2015.10.17-22.20.30:836][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.17-22.20.30:870][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.17-22.20.31:009][  0]LogRenderer: Reallocating scene render targets to support 688x624 (Frame:2).
+[2015.10.17-22.20.31:368][  7]LogAssetRegistry: Asset discovery search completed in 3.6709 seconds
+[2015.10.17-22.20.32:738][ 88]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.20.46:408][651]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.20.48:320][876]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.21.00:114][438]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.21.00:143][438]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.21.01:460][501]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.21.01:479][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Guns/Guns" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/Guns/Guns.uasset" SILENT=true
+[2015.10.17-22.21.01:486][501]LogSavePackage: Save=4.617625ms
+[2015.10.17-22.21.01:486][501]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Guns70ACC44641FCC379785B958229982C53.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/Guns/Guns.uasset'
+[2015.10.17-22.21.01:947][523]LogEnum:Warning: Enum Text Guns::NewEnumerator0 for Enum Guns failed to resolve to any value
+[2015.10.17-22.21.08:597][870]LogEnum:Warning: Enum Text Guns::NewEnumerator1 for Enum Guns failed to resolve to any value
+[2015.10.17-22.21.14:531][173]LogEnum:Warning: Enum Text Guns::NewEnumerator2 for Enum Guns failed to resolve to any value
+[2015.10.17-22.21.20:059][466]LogEnum:Warning: Enum Text Guns::NewEnumerator3 for Enum Guns failed to resolve to any value
+[2015.10.17-22.21.29:449][953]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.21.29:469][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Guns/Guns" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/Guns/Guns.uasset" SILENT=true
+[2015.10.17-22.21.29:522][953]LogSavePackage: Save=8.628489ms
+[2015.10.17-22.21.29:522][953]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Guns07E4F026452301BB4EE2D59883D0505D.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/Guns/Guns.uasset'
+[2015.10.17-22.22.20:604][586]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.22.20:666][586]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.17-22.22.20:783][586]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.17-22.22.25:010][856]LogRenderer: Reallocating scene render targets to support 800x624 (Frame:2736).
+[2015.10.17-22.22.33:039][569]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.22.33:340][593]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.22.34:322][679]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.22.38:547][ 80]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.17-22.22.44:802][483]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.17-22.22.46:013][558]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.17-22.22.47:579][663]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.17-22.22.48:444][682]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.22.56:798][384]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.17-22.23.06:612][982]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.23.07:645][ 78]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_5) Not registered. Aborting.
+[2015.10.17-22.23.13:847][799]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_6) Not registered. Aborting.
+[2015.10.17-22.23.42:612][572]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_7) Not registered. Aborting.
+[2015.10.17-22.23.43:874][710]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_8) Not registered. Aborting.
+[2015.10.17-22.23.44:988][805]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.23.50:175][391]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_9) Not registered. Aborting.
+[2015.10.17-22.24.01:225][ 59]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_10) Not registered. Aborting.
+[2015.10.17-22.24.05:302][229]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.24.05:704][253]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.24.14:688][ 11]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.24.40:202][340]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.25.03:753][374]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_11) Not registered. Aborting.
+[2015.10.17-22.25.04:814][494]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.26.56:294][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9854
+[2015.10.17-22.26.56:294][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1693
+[2015.10.17-22.26.56:296][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.26.56:297][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_904 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_904
+[2015.10.17-22.26.56:297][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_904 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_904
+[2015.10.17-22.26.56:297][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_945
+[2015.10.17-22.26.56:297][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945
+[2015.10.17-22.26.56:299][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.26.56:300][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.26.56:301][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.26.56:302][358]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.27.03:884][239]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.04:220][265]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.11:140][981]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.11:561][ 29]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.18:913][653]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_12) Not registered. Aborting.
+[2015.10.17-22.27.19:161][653]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.19:202][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.27.19:507][653]LogSavePackage: Save=274.246216ms
+[2015.10.17-22.27.19:507][653]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint6DA37D9E403D26B73CA616A6088C15CD.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.27.25:513][155]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.36:664][386]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.36:953][403]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.45:302][335]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.45:688][363]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.54:954][359]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.27.55:015][359]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.55:067][359]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.27.55:362][359]LogSavePackage: Save=275.931030ms
+[2015.10.17-22.27.55:362][359]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint858920FF4248A182AC688FB0D382C2FB.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.27.57:827][643]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.27.58:149][666]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.04:565][337]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.07:353][638]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.28.07:414][638]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.07:454][638]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.28.07:748][638]LogSavePackage: Save=275.304565ms
+[2015.10.17-22.28.07:748][638]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintA53AED6B441CBD82D396C7BDEC81A2D3.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.28.10:656][948]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.16:625][478]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.17:012][510]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.22:288][ 81]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.22:630][108]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.31:421][ 74]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.31:839][107]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.37:503][672]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.28.37:564][672]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.37:608][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.28.37:899][672]LogSavePackage: Save=271.134430ms
+[2015.10.17-22.28.37:899][672]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintA97B7522435A372FA70C249BFC0EC316.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.28.38:941][793]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.41:549][ 92]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.28.41:610][ 92]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.28.41:655][ 92]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.28.41:948][ 92]LogSavePackage: Save=273.902618ms
+[2015.10.17-22.28.41:948][ 92]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint40B59D364DF341A4BA40C18E69BF2158.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.29.18:857][913]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.30.06:855][ 66]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.30.33:909][155]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.30.42:911][182]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.30.43:133][182]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.30.43:225][182]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.093
+[2015.10.17-22.30.43:234][182]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Blueprints/PlayerBlueprint] ([1] browsable assets)...
+[2015.10.17-22.30.43:257][182]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/Blueprints/PlayerBlueprint.PlayerBlueprint]
+[2015.10.17-22.30.43:257][182]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayerBlueprint]
+[2015.10.17-22.30.43:566][182]LogSavePackage: Save=288.434509ms
+[2015.10.17-22.30.43:566][182]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint_Auto1B0CA1EE84CF5C187BD8332A02AEFA2F1.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Autosaves/Game/Blueprints/PlayerBlueprint_Auto1.uasset'
+[2015.10.17-22.30.43:579][182]LogFileHelpers: Auto-saving content packages took 0.352
+[2015.10.17-22.33.55:328][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.33.55:329][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_994.EdGraphPin_30542''
+[2015.10.17-22.33.55:329][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_904 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_904
+[2015.10.17-22.33.55:329][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_904 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_904
+[2015.10.17-22.33.55:329][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_904.EdGraphPin_30518''
+[2015.10.17-22.33.55:329][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_945
+[2015.10.17-22.33.55:329][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945
+[2015.10.17-22.33.55:329][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_945.EdGraphPin_30524''
+[2015.10.17-22.33.55:332][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.33.55:332][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_994.EdGraphPin_30543''
+[2015.10.17-22.33.55:332][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.33.55:332][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_994.EdGraphPin_30546''
+[2015.10.17-22.33.55:334][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.33.55:334][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_8336.EdGraphPin_30566''
+[2015.10.17-22.33.55:334][424]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.33.55:335][424]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_8336.EdGraphPin_30567''
+[2015.10.17-22.33.56:841][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.33.56:841][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_994.EdGraphPin_30542''
+[2015.10.17-22.33.56:842][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_904 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_904
+[2015.10.17-22.33.56:842][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_904 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_904
+[2015.10.17-22.33.56:842][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_904.EdGraphPin_30518''
+[2015.10.17-22.33.56:842][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_945
+[2015.10.17-22.33.56:842][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945
+[2015.10.17-22.33.56:842][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_945.EdGraphPin_30524''
+[2015.10.17-22.33.56:845][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.33.56:845][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_994.EdGraphPin_30543''
+[2015.10.17-22.33.56:845][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_DynamicCast_994 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_994
+[2015.10.17-22.33.56:846][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_DynamicCast_994.EdGraphPin_30546''
+[2015.10.17-22.33.56:847][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.33.56:847][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_8336.EdGraphPin_30566''
+[2015.10.17-22.33.56:848][489]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.33.56:848][489]LogProperty:Warning: ObjectProperty /Script/Engine.EdGraphPin:LinkedTo.LinkedTo: unresolved reference to 'EdGraphPin'K2Node_VariableGet_8336.EdGraphPin_30567''
+[2015.10.17-22.34.01:468][664]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.34.02:888][725]LogEditorTransaction: Undo Delete current selection
+[2015.10.17-22.34.03:026][725]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.34.03:076][725]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.34.06:297][810]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.19:895][422]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.31:424][964]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.38:673][230]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.46:850][577]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.47:358][586]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.53:496][782]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.55:827][876]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.57:942][970]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.35.59:519][ 32]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.02:380][160]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.09:636][437]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.19:302][790]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.25:518][ 56]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.40:039][725]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.40:570][734]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.47:208][943]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.50:123][ 75]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.56:475][341]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.36.59:567][467]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.37.12:486][983]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.37.24:630][612]LogEditorTransaction: Undo Move Node
+[2015.10.17-22.37.24:750][612]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_13) Not registered. Aborting.
+[2015.10.17-22.37.24:768][612]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.37.53:826][953]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.37.54:566][991]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.38.10:304][680]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.38.25:921][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9854
+[2015.10.17-22.38.25:921][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_9854
+[2015.10.17-22.38.25:921][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_9854
+[2015.10.17-22.38.25:921][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_9854.EdGraphPin_30711 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_9854.EdGraphPin_30711
+[2015.10.17-22.38.25:921][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1693
+[2015.10.17-22.38.25:921][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableSet_1693
+[2015.10.17-22.38.25:922][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableSet_1693
+[2015.10.17-22.38.25:922][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableSet_1693.EdGraphPin_30482 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableSet_1693.EdGraphPin_30482
+[2015.10.17-22.38.25:924][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.38.25:924][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1484 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1484
+[2015.10.17-22.38.25:924][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1415 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1415
+[2015.10.17-22.38.25:924][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1415 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1415
+[2015.10.17-22.38.25:925][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1415.EdGraphPin_30524 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1415.EdGraphPin_30524
+[2015.10.17-22.38.25:926][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.38.25:927][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_3602 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3602
+[2015.10.17-22.38.25:927][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_3602 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3602
+[2015.10.17-22.38.25:927][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.38.25:928][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.38.25:928][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1483 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1483
+[2015.10.17-22.38.25:930][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1419 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1419
+[2015.10.17-22.38.25:930][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1419 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1419
+[2015.10.17-22.38.25:930][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1419.EdGraphPin_30629 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1419.EdGraphPin_30629
+[2015.10.17-22.38.25:930][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1418 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1418
+[2015.10.17-22.38.25:930][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1418 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1418
+[2015.10.17-22.38.25:930][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1418.EdGraphPin_30623 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1418.EdGraphPin_30623
+[2015.10.17-22.38.25:931][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.38.25:931][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_512
+[2015.10.17-22.38.25:933][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.38.25:933][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_512
+[2015.10.17-22.38.25:933][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_3295
+[2015.10.17-22.38.25:933][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_CallFunction_3295
+[2015.10.17-22.38.25:934][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_3295
+[2015.10.17-22.38.25:934][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3295
+[2015.10.17-22.38.25:934][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.38.25:934][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_512
+[2015.10.17-22.38.25:935][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421
+[2015.10.17-22.38.25:935][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421
+[2015.10.17-22.38.25:935][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421.EdGraphPin_30671 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421.EdGraphPin_30671
+[2015.10.17-22.38.25:936][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421
+[2015.10.17-22.38.25:936][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421
+[2015.10.17-22.38.25:936][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421.EdGraphPin_30672 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421.EdGraphPin_30672
+[2015.10.17-22.38.25:938][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_945
+[2015.10.17-22.38.25:938][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_945
+[2015.10.17-22.38.25:938][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945
+[2015.10.17-22.38.25:938][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_945
+[2015.10.17-22.38.25:938][440]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_945.EdGraphPin_30704 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_945.EdGraphPin_30704
+[2015.10.17-22.38.25:939][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1486 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1486
+[2015.10.17-22.38.25:939][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.38.25:941][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.38.25:941][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.38.25:942][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1487 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1487
+[2015.10.17-22.38.25:942][440]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.38.43:602][193]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9854
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_9854
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_9854
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_9854.EdGraphPin_30711 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_9854.EdGraphPin_30711
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1693
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableSet_1693
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableSet_1693
+[2015.10.17-22.39.19:081][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableSet_1693.EdGraphPin_30482 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableSet_1693.EdGraphPin_30482
+[2015.10.17-22.39.19:084][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.39.19:084][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1484 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1484
+[2015.10.17-22.39.19:084][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1415 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1415
+[2015.10.17-22.39.19:084][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1415 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1415
+[2015.10.17-22.39.19:085][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1415.EdGraphPin_30524 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1415.EdGraphPin_30524
+[2015.10.17-22.39.19:086][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.39.19:086][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_3602 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3602
+[2015.10.17-22.39.19:086][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_3602 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3602
+[2015.10.17-22.39.19:087][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.39.19:087][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.39.19:087][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1483 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1483
+[2015.10.17-22.39.19:089][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1419 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1419
+[2015.10.17-22.39.19:089][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1419 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1419
+[2015.10.17-22.39.19:089][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1419.EdGraphPin_30629 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1419.EdGraphPin_30629
+[2015.10.17-22.39.19:090][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1418 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1418
+[2015.10.17-22.39.19:090][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1418 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1418
+[2015.10.17-22.39.19:090][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1418.EdGraphPin_30623 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1418.EdGraphPin_30623
+[2015.10.17-22.39.19:090][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.39.19:090][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_512
+[2015.10.17-22.39.19:093][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.39.19:093][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_512
+[2015.10.17-22.39.19:093][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_CallFunction_3295
+[2015.10.17-22.39.19:093][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_CallFunction_3295
+[2015.10.17-22.39.19:093][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_CallFunction_3295
+[2015.10.17-22.39.19:093][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3295
+[2015.10.17-22.39.19:094][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.39.19:094][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_512
+[2015.10.17-22.39.19:095][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421
+[2015.10.17-22.39.19:095][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421
+[2015.10.17-22.39.19:095][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421.EdGraphPin_30671 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421.EdGraphPin_30671
+[2015.10.17-22.39.19:096][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421
+[2015.10.17-22.39.19:096][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421
+[2015.10.17-22.39.19:096][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_1421.EdGraphPin_30672 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1421.EdGraphPin_30672
+[2015.10.17-22.39.19:098][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:ExecuteUbergraph_PlayerBlueprint.K2Node_VariableGet_945
+[2015.10.17-22.39.19:098][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_945
+[2015.10.17-22.39.19:098][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945
+[2015.10.17-22.39.19:098][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_945
+[2015.10.17-22.39.19:098][703]LogUObjectHash:Warning: Ambiguous search, could be EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_274.K2Node_VariableGet_945.EdGraphPin_30704 or EdGraphPin /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_945.EdGraphPin_30704
+[2015.10.17-22.39.19:099][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1486 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1486
+[2015.10.17-22.39.19:099][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.39.19:101][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.39.19:101][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.39.19:102][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1487 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_VariableGet_1487
+[2015.10.17-22.39.19:102][703]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EdGraph_282.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.39.21:679][808]LogEditorTransaction: Undo Move Node
+[2015.10.17-22.39.21:825][808]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_14) Not registered. Aborting.
+[2015.10.17-22.39.21:853][808]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.39.22:564][825]LogEditorTransaction: Undo Paste clipboard contents
+[2015.10.17-22.39.22:727][825]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_15) Not registered. Aborting.
+[2015.10.17-22.39.23:752][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1692 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1692
+[2015.10.17-22.39.23:753][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1693 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1693
+[2015.10.17-22.39.23:753][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3600 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3600
+[2015.10.17-22.39.23:753][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1415 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1415
+[2015.10.17-22.39.23:754][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3601 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3601
+[2015.10.17-22.39.23:754][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1417 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1417
+[2015.10.17-22.39.23:754][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3602 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3602
+[2015.10.17-22.39.23:754][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1418 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1418
+[2015.10.17-22.39.23:755][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1419 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1419
+[2015.10.17-22.39.23:755][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3603 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3603
+[2015.10.17-22.39.23:755][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_512
+[2015.10.17-22.39.23:755][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1420 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1420
+[2015.10.17-22.39.23:756][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1421
+[2015.10.17-22.39.23:756][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3295 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_3295
+[2015.10.17-22.39.23:756][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_945
+[2015.10.17-22.39.23:756][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9854 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9854
+[2015.10.17-22.39.23:757][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_8336
+[2015.10.17-22.39.23:757][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1483 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1483
+[2015.10.17-22.39.23:757][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1484 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1484
+[2015.10.17-22.39.23:757][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_515
+[2015.10.17-22.39.23:758][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1487 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1487
+[2015.10.17-22.39.23:758][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1486 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_1486
+[2015.10.17-22.39.23:759][856]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_516
+[2015.10.17-22.39.35:171][373]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_16) Not registered. Aborting.
+[2015.10.17-22.39.35:359][373]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.39.35:474][373]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.39.36:309][373]LogSavePackage: Save=748.312744ms
+[2015.10.17-22.39.36:309][373]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintFBBF943A4B9DA487340B18A0734C9DB6.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.39.38:082][450]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.01:098][454]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.14:642][ 59]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.22:075][355]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.30:944][707]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.42:963][218]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.55:601][739]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.40.58:372][851]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.41.13:303][554]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.41.13:455][554]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.41.13:559][554]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.41.14:559][554]LogSavePackage: Save=947.118591ms
+[2015.10.17-22.41.14:572][554]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintB33400F445D93DC806E47DBE95117A2E.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.41.20:378][807]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.41.24:201][868]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.41.25:402][868]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2015.10.17-22.41.25:651][868]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/SubEditors/PersonaAnimEditorTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.17-22.41.25:790][868]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.17-22.41.36:859][ 69]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.41.37:512][ 69]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_2) - call TermArticulated first.
+[2015.10.17-22.41.47:826][230]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.42.07:677][675]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.42.22:213][419]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.42.47:303][718]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.42.49:133][813]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.43.17:623][259]LogEditorTransaction: Undo Translate Socket
+[2015.10.17-22.43.17:640][259]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.45.31:383][790]LogEditorTransaction: Undo Set Vector Property
+[2015.10.17-22.45.31:399][790]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.45.38:678][185]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.17-22.45.39:457][231]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.45.39:543][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E3B4DC60
+[2015.10.17-22.45.39:544][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C03156C0
+[2015.10.17-22.45.39:545][231]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E35E1E40
+[2015.10.17-22.45.39:568][231]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.45.39:605][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Player_Skeleton" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset" SILENT=true
+[2015.10.17-22.45.39:668][231]LogSavePackage: Save=12.273163ms
+[2015.10.17-22.45.39:669][231]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Player_SkeletonBE8DF1BC4A9C80382DF104B3FD93D930.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset'
+[2015.10.17-22.47.07:852][382]LogEditorTransaction: Undo Set Vector Property
+[2015.10.17-22.47.07:868][382]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.48.37:240][826]LogEditorTransaction: Undo Set Vector Property
+[2015.10.17-22.48.37:243][826]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.49.44:163][852]LogEditorTransaction: Undo Set Vector Property
+[2015.10.17-22.49.44:180][852]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.49.47:754][ 47]LogEditorTransaction: Undo Set Vector Property
+[2015.10.17-22.49.47:758][ 47]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.50.07:730][209]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DA8A8720
+[2015.10.17-22.50.07:752][209]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.50.07:774][209]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Player_Skeleton" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset" SILENT=true
+[2015.10.17-22.50.07:839][209]LogSavePackage: Save=16.161690ms
+[2015.10.17-22.50.07:839][209]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Player_SkeletonFB53C2AD4A2134B4B72B63B465B9CB66.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset'
+[2015.10.17-22.50.20:185][914]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.50.32:717][652]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.50.33:649][704]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.50.39:274][ 32]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.17-22.50.54:215][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F55D4C20
+[2015.10.17-22.50.54:216][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F93BA980
+[2015.10.17-22.50.54:216][948]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F06BC720
+[2015.10.17-22.50.54:233][948]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.50.54:262][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Player_Skeleton" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset" SILENT=true
+[2015.10.17-22.50.54:304][948]LogSavePackage: Save=8.738101ms
+[2015.10.17-22.50.54:304][948]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Player_SkeletonBF93CAFB4BD65800C34F8380678373C4.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset'
+[2015.10.17-22.51.04:192][587]LogRenderer: Reallocating scene render targets to support 968x624 (Frame:46417).
+[2015.10.17-22.52.03:183][652]LogEditorTransaction: Undo Set Vector Property
+[2015.10.17-22.52.03:198][652]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.52.58:872][623]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F93BB740
+[2015.10.17-22.52.58:898][623]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.52.58:928][623]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Character/Player_Skeleton" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset" SILENT=true
+[2015.10.17-22.52.58:984][623]LogSavePackage: Save=12.778523ms
+[2015.10.17-22.52.58:984][623]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Player_Skeleton24A1C32848784D68FFE29E9F81A90C37.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Character/Player_Skeleton.uasset'
+[2015.10.17-22.53.15:591][818]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.17-22.53.15:625][818]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.17-22.53.16:088][818]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.17-22.53.16:469][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0FD4C99E0
+[2015.10.17-22.53.16:470][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0FDF36480
+[2015.10.17-22.53.16:505][818]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F91F72E0
+[2015.10.17-22.53.16:505][818]LogPlayLevel: PIE:  Blueprint regeneration took 913 ms (2 blueprints)
+[2015.10.17-22.53.16:508][818]PIE: New page: PIE session: Untitled_1 (Oct 18, 2015, 2:53:16 AM)
+[2015.10.17-22.53.16:509][818]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2015.10.17-22.53.16:511][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002558s)
+[2015.10.17-22.53.16:512][818]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.17-22.53.16:513][818]LogPlayLevel: PIE: World Init took: (0.001512s)
+[2015.10.17-22.53.16:513][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.004336s)
+[2015.10.17-22.53.16:574][818]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.53.16:582][818]LogInit: FAudioDevice initialized.
+[2015.10.17-22.53.16:586][818]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.53.16:727][818]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.53.16:732][818]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2015.10.18-00.53.16
+[2015.10.17-22.53.16:732][818]LogActor:Warning: GameSession /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.53.16:732][818]LogActor:Warning: GameNetworkManager /Temp/UEDPIE_0_Untitled_1.Untitled_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.53.16:733][818]LogWorld: Bringing up level for play took: 0.003082
+[2015.10.17-22.53.16:748][818]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_1 1.61
+[2015.10.17-22.53.18:709][919]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0B49B9120
+[2015.10.17-22.53.21:764][166]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Levels/Level_1.Level_1:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:066][166]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Levels/Level_1.Level_1:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:067][166]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Levels/Level_1.Level_1:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.17-22.53.22:121][166]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.53.22:272][166]Cmd: MAP LOAD FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.17-22.53.22:272][166]LightingResults: New page: Lighting Build
+[2015.10.17-22.53.22:298][166]LoadErrors: New page: Loading map: Level_1.umap
+[2015.10.17-22.53.22:299][166]MapCheck: New page: Map Check
+[2015.10.17-22.53.22:299][166]LightingResults: New page: Lighting Build
+[2015.10.17-22.53.22:349][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C525F880
+[2015.10.17-22.53.22:354][166]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0FD4C8220
+[2015.10.17-22.53.22:522][166]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.53.22:587][166]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.17-22.53.22:642][166]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.17-22.53.22:717][166]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 75.442ms to complete.
+[2015.10.17-22.53.22:717][166]LogFileHelpers: Loading map 'Level_1' took 0.447
+[2015.10.17-22.53.23:522][204]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.53.24:265][243]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.17-22.53.24:265][243]PIE: New page: PIE session: Level_1 (Oct 18, 2015, 2:53:24 AM)
+[2015.10.17-22.53.24:265][243]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.17-22.53.24:270][243]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004600s)
+[2015.10.17-22.53.24:271][243]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.53.24:272][243]LogPlayLevel: PIE: World Init took: (0.001799s)
+[2015.10.17-22.53.24:272][243]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.006760s)
+[2015.10.17-22.53.24:339][243]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.53.24:348][243]LogInit: FAudioDevice initialized.
+[2015.10.17-22.53.24:424][243]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.53.24:432][243]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2015.10.18-00.53.24
+[2015.10.17-22.53.24:432][243]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.53.24:433][243]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.53.24:433][243]LogWorld: Bringing up level for play took: 0.006797
+[2015.10.17-22.53.24:440][243]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.697
+[2015.10.17-22.53.59:290][315]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DCC0F100
+[2015.10.17-22.54.07:755][138]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.54.07:809][138]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.54.07:857][138]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.54.08:238][138]LogSavePackage: Save=348.945587ms
+[2015.10.17-22.54.08:239][138]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintC72765994144DD8828045FA33F5EF04C.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.54.08:797][198]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.17-22.54.08:820][198]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.54.08:832][198]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.17-22.54.09:414][198]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.17-22.54.09:505][198]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.17-22.54.09:595][198]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.17-22.54.09:691][198]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.17-22.54.10:102][198]LogPlayLevel: PIE:  Blueprint regeneration took 1305 ms (5 blueprints)
+[2015.10.17-22.54.10:103][198]PIE: New page: PIE session: Level_1 (Oct 18, 2015, 2:54:10 AM)
+[2015.10.17-22.54.10:103][198]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.17-22.54.10:107][198]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003654s)
+[2015.10.17-22.54.10:108][198]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.54.10:109][198]LogPlayLevel: PIE: World Init took: (0.001833s)
+[2015.10.17-22.54.10:109][198]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.005881s)
+[2015.10.17-22.54.10:161][198]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.54.10:167][198]LogInit: FAudioDevice initialized.
+[2015.10.17-22.54.10:170][198]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.54.10:204][198]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.54.10:211][198]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2015.10.18-00.54.10
+[2015.10.17-22.54.10:211][198]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.54.10:211][198]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.54.10:212][198]LogWorld: Bringing up level for play took: 0.006061
+[2015.10.17-22.54.10:229][198]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 1.092
+[2015.10.17-22.54.32:049][446]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.54.32:134][447]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E36F7060
+[2015.10.17-22.54.33:168][556]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.54.33:262][556]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.17-22.54.33:362][556]LogSavePackage: Save=28.816233ms
+[2015.10.17-22.54.33:362][556]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_17858A3E74A7FEEDF927F3AAC6CA3A095.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.17-22.54.33:406][556]LogFileHelpers: Saving map 'Level_1' took 0.217
+[2015.10.17-22.54.54:302][836]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.17-22.54.54:302][836]PIE: New page: PIE session: Level_1 (Oct 18, 2015, 2:54:54 AM)
+[2015.10.17-22.54.54:303][836]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.17-22.54.54:306][836]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003691s)
+[2015.10.17-22.54.54:307][836]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.54.54:308][836]LogPlayLevel: PIE: World Init took: (0.001962s)
+[2015.10.17-22.54.54:308][836]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.005912s)
+[2015.10.17-22.54.54:370][836]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.54.54:378][836]LogInit: FAudioDevice initialized.
+[2015.10.17-22.54.54:382][836]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.54.54:425][836]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.54.54:433][836]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2015.10.18-00.54.54
+[2015.10.17-22.54.54:433][836]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.54.54:433][836]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.54.54:434][836]LogWorld: Bringing up level for play took: 0.006704
+[2015.10.17-22.54.54:503][836]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.635
+[2015.10.17-22.54.58:973][ 58]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F4E86C00
+[2015.10.17-22.55.04:631][606]LogRenderer: Reallocating scene render targets to support 1248x624 (Frame:58437).
+[2015.10.17-22.55.09:738][834]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.55.10:246][834]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_10) - call TermArticulated first.
+[2015.10.17-22.55.10:418][834]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.17-22.55.10:471][834]LogContentBrowser:Verbose: The majority of assets in the view are of type: AnimSequence
+[2015.10.17-22.55.17:640][473]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.55.23:256][937]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.55.24:712][ 63]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.17-22.55.24:737][ 63]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.17-22.55.25:170][ 63]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.55.25:211][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Animations/PlayerAnimation" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Animations/PlayerAnimation.uasset" SILENT=true
+[2015.10.17-22.55.25:651][ 63]LogSavePackage: Save=361.391998ms
+[2015.10.17-22.55.25:651][ 63]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerAnimation8320AB684BDD44751672978CA72BE825.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Animations/PlayerAnimation.uasset'
+[2015.10.17-22.55.25:680][ 63]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.55.25:749][ 63]LogPlayLevel: PIE:  Blueprint regeneration took 1036 ms (1 blueprints)
+[2015.10.17-22.55.25:749][ 63]PIE: New page: PIE session: Level_1 (Oct 18, 2015, 2:55:25 AM)
+[2015.10.17-22.55.25:750][ 63]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.17-22.55.25:753][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003356s)
+[2015.10.17-22.55.25:754][ 63]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.55.25:755][ 63]LogPlayLevel: PIE: World Init took: (0.001700s)
+[2015.10.17-22.55.25:755][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.005296s)
+[2015.10.17-22.55.25:804][ 63]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.55.25:811][ 63]LogInit: FAudioDevice initialized.
+[2015.10.17-22.55.25:815][ 63]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.55.25:844][ 63]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.55.25:849][ 63]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2015.10.18-00.55.25
+[2015.10.17-22.55.25:849][ 63]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.55.25:850][ 63]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.55.25:850][ 63]LogWorld: Bringing up level for play took: 0.004879
+[2015.10.17-22.55.25:875][ 63]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.737
+[2015.10.17-22.55.48:811][916]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C0419760
+[2015.10.17-22.55.52:467][177]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.17-22.55.52:467][177]PIE: New page: PIE session: Level_1 (Oct 18, 2015, 2:55:52 AM)
+[2015.10.17-22.55.52:467][177]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.17-22.55.52:471][177]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003917s)
+[2015.10.17-22.55.52:472][177]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.55.52:473][177]LogPlayLevel: PIE: World Init took: (0.001967s)
+[2015.10.17-22.55.52:474][177]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.006273s)
+[2015.10.17-22.55.52:529][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0FD1F79C0
+[2015.10.17-22.55.52:530][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DCCF85E0
+[2015.10.17-22.55.52:544][177]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E21AACA0
+[2015.10.17-22.55.52:544][177]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.55.52:553][177]LogInit: FAudioDevice initialized.
+[2015.10.17-22.55.52:557][177]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.55.52:587][177]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.55.52:595][177]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2015.10.18-00.55.52
+[2015.10.17-22.55.52:595][177]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.55.52:596][177]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.55.52:597][177]LogWorld: Bringing up level for play took: 0.007520
+[2015.10.17-22.55.52:617][177]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.521
+[2015.10.17-22.56.02:989][792]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C3CE2D40
+[2015.10.17-22.56.12:709][233]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.56.13:029][233]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_12) - call TermArticulated first.
+[2015.10.17-22.56.13:047][233]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.17-22.56.17:620][430]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.56.17:934][430]LogSkeletalMesh: InitArticulated: Bodies already created (/Engine/Transient.DebugSkelMeshComponent_13) - call TermArticulated first.
+[2015.10.17-22.56.17:954][430]LogUObjectGlobals:Warning: Failed to find object 'Object /Engine/Tutorial/SubEditors/PersonaAnimEditorTutorial.PersonaAnimEditorTutorial_C'
+[2015.10.17-22.56.21:209][563]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.56.30:568][130]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.56.30:589][130]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.56.33:931][264]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.56.34:591][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_17) Not registered. Aborting.
+[2015.10.17-22.56.34:672][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0B4A7B2E0
+[2015.10.17-22.56.34:675][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C203D760
+[2015.10.17-22.56.34:676][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C203C540
+[2015.10.17-22.56.34:677][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F51F0540
+[2015.10.17-22.56.34:678][289]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F51F1BC0
+[2015.10.17-22.56.34:707][289]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.56.34:789][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.56.35:597][289]LogSavePackage: Save=764.473206ms
+[2015.10.17-22.56.35:597][289]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint76B610334BCF2A94D609A183F8054FE0.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.57.12:037][152]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:EventGraph.K2Node_VariableSet_1079 or K2Node_VariableSet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableSet_1079
+[2015.10.17-22.57.21:653][184]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.24:927][524]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.27:284][775]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.28:699][928]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.57.28:768][928]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.28:816][928]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.57.29:193][928]LogSavePackage: Save=355.020203ms
+[2015.10.17-22.57.29:193][928]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintBE59950C4117A361BB7480AD168FB4F9.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.57.37:709][880]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.38:361][930]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.40:298][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_VariableGet_6143 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_6143
+[2015.10.17-22.57.40:298][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_DynamicCast_828 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_828
+[2015.10.17-22.57.40:298][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_12040 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_12040
+[2015.10.17-22.57.40:298][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_9368 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9368
+[2015.10.17-22.57.40:299][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_9368 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_9368
+[2015.10.17-22.57.40:299][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_DynamicCast_933 or K2Node_DynamicCast /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_DynamicCast_933
+[2015.10.17-22.57.40:300][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_12040 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_12040
+[2015.10.17-22.57.40:300][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_VariableGet_7480 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_7480
+[2015.10.17-22.57.40:300][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_12040 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_12040
+[2015.10.17-22.57.40:301][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_VariableGet_7480 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_7480
+[2015.10.17-22.57.40:302][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_12041 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_12041
+[2015.10.17-22.57.40:302][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_VariableGet_7483 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_7483
+[2015.10.17-22.57.40:302][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_CallFunction_12041 or K2Node_CallFunction /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_CallFunction_12041
+[2015.10.17-22.57.40:302][114]LogUObjectHash:Warning: Ambiguous search, could be K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:UserConstructionScript.K2Node_VariableGet_7483 or K2Node_VariableGet /Game/Blueprints/PlayerBlueprint.PlayerBlueprint:GunEquip.K2Node_VariableGet_7483
+[2015.10.17-22.57.44:430][505]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.47:061][761]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.49:083][944]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.17-22.57.49:089][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.57.49:133][944]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.17-22.57.49:702][944]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.49:746][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.17-22.57.50:129][944]LogSavePackage: Save=357.978058ms
+[2015.10.17-22.57.50:129][944]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint6488270E4A02F54BE77FB8ACB39C85FE.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.17-22.57.50:150][944]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.17-22.57.50:241][944]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.17-22.57.50:332][944]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.17-22.57.50:427][944]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.17-22.57.50:729][944]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_18) Not registered. Aborting.
+[2015.10.17-22.57.50:843][944]LogPlayLevel: PIE:  Blueprint regeneration took 1760 ms (5 blueprints)
+[2015.10.17-22.57.50:843][944]PIE: New page: PIE session: Level_1 (Oct 18, 2015, 2:57:50 AM)
+[2015.10.17-22.57.50:844][944]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.17-22.57.50:847][944]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003326s)
+[2015.10.17-22.57.50:848][944]LogAIModule: Creating AISystem for world Level_1
+[2015.10.17-22.57.50:849][944]LogPlayLevel: PIE: World Init took: (0.001497s)
+[2015.10.17-22.57.50:849][944]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.005053s)
+[2015.10.17-22.57.50:899][944]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.17-22.57.50:907][944]LogInit: FAudioDevice initialized.
+[2015.10.17-22.57.50:910][944]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.57.50:944][944]LogWorld: Game class is 'Game_C'
+[2015.10.17-22.57.50:950][944]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 0) at 2015.10.18-00.57.50
+[2015.10.17-22.57.50:950][944]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.57.50:950][944]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.17-22.57.50:951][944]LogWorld: Bringing up level for play took: 0.005068
+[2015.10.17-22.57.50:965][944]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 1.828
+[2015.10.17-22.58.24:650][339]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.17-22.58.24:768][340]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C9114B80
+[2015.10.17-22.58.26:788][511]LogD3D11RHI: InitD3DDevice
+[2015.10.17-22.58.26:906][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.17-22.58.27:005][511]LogSavePackage: Save=27.005390ms
+[2015.10.17-22.58.27:005][511]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1B6E606D744835B56656E72A2F66A70A9.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.17-22.58.27:047][511]LogFileHelpers: Saving map 'Level_1' took 0.234
+[2015.10.17-22.58.31:727][844]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0F93BAE80
+[2015.10.17-22.58.31:728][844]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.17-22.58.32:122][845]Cmd: QUIT_EDITOR
+[2015.10.17-22.58.33:195][845]LogExit: Preparing to exit.
+[2015.10.17-22.58.34:033][845]LogExit: Editor shut down
+[2015.10.17-22.58.34:035][845]LogExit: Transaction tracking system shut down
+[2015.10.17-22.58.34:037][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DAB782C0
+[2015.10.17-22.58.34:037][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0C203DF80
+[2015.10.17-22.58.34:040][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E86C3EC0
+[2015.10.17-22.58.34:042][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0FD4C9620
+[2015.10.17-22.58.34:042][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DCA725C0
+[2015.10.17-22.58.34:042][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0DCA72980
+[2015.10.17-22.58.34:042][845]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000E0E35E3100
+[2015.10.17-22.58.34:241][845]LogExit: Object subsystem successfully closed.
+[2015.10.17-22.58.34:269][845]LogD3D11RHI: Shutdown
+[2015.10.17-22.58.34:269][845]LogD3D11RHI: CleanupD3DDevice
+[2015.10.17-22.58.34:338][845]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.17-22.58.34:359][845]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.10.17-22.58.34:359][845]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.10.17-22.58.34:359][845]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.10.17-22.58.34:359][845]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.10.17-22.58.34:359][845]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.10.17-22.58.34:362][845]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.10.17-22.58.34:363][845]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.10.17-22.58.34:364][845]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.10.17-22.58.35:039][845]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.10.17-22.58.35:040][845]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.10.17-22.58.35:106][845]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.10.17-22.58.35:291][845]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.10.17-22.58.35:291][845]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.10.17-22.58.35:292][845]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.10.17-22.58.35:292][845]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.10.17-22.58.35:292][845]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.10.17-22.58.35:292][845]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.10.17-22.58.35:292][845]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.10.17-22.58.35:322][845]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.10.17-22.58.35:322][845]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.10.17-22.58.35:322][845]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.10.17-22.58.35:322][845]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.10.17-22.58.35:322][845]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.10.17-22.58.35:323][845]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.10.17-22.58.35:324][845]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.10.17-22.58.35:324][845]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.10.17-22.58.35:324][845]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.10.17-22.58.35:324][845]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.10.17-22.58.35:330][845]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.10.17-22.58.35:331][845]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.10.17-22.58.35:331][845]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.10.17-22.58.35:335][845]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.17-22.58.35:338][845]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.17-22.58.35:338][845]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.10.17-22.58.35:439][845]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.10.17-22.58.35:439][845]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.10.17-22.58.35:443][845]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.10.17-22.58.35:444][845]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.10.17-22.58.35:444][845]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.10.17-22.58.35:444][845]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.10.17-22.58.35:444][845]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.10.17-22.58.35:447][845]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.10.17-22.58.35:447][845]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.10.17-22.58.35:447][845]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.10.17-22.58.35:448][845]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.10.17-22.58.35:512][845]LogDerivedDataCache: Shutdown
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.10.17-22.58.35:512][845]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.17-22.58.35:513][845]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.10.17-22.58.35:514][845]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.17-22.58.35:514][845]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.17-22.58.35:514][845]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.17-22.58.35:514][845]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.17-22.58.35:514][845]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.17-22.58.35:520][845]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.17-22.58.35:520][845]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.17-22.58.35:520][845]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.17-22.58.35:520][845]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.17-22.58.35:521][845]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.17-22.58.35:521][845]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.17-22.58.35:521][845]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.17-22.58.35:521][845]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.17-22.58.35:521][845]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.17-22.58.35:521][845]LogExit: Exiting.
+[2015.10.17-22.58.35:526][845]Log file closed, 10/18/15 00:58:35

@@ -1,0 +1,871 @@
+﻿[2015.10.21-15.27.46:403][  0]Log file open, 10/21/15 17:27:46
+[2015.10.21-15.27.46:403][  0]LogInit:Display: Running engine for game: FPS_Game
+[2015.10.21-15.27.46:403][  0]LogInit:Display: RandInit(11157783) SRandInit(11157784).
+[2015.10.21-15.27.46:403][  0]LogTaskGraph: Started task graph with 4 named threads and 5 total threads.
+[2015.10.21-15.27.46:403][  0]LogStats: Stats thread started
+[2015.10.21-15.27.46:403][  0]LogInit: Version: 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.21-15.27.46:403][  0]LogInit: API Version: 2579680
+[2015.10.21-15.27.46:403][  0]LogInit: Compiled (64-bit): Jul 27 2015 16:24:33
+[2015.10.21-15.27.46:403][  0]LogInit: Compiled with Visual C++: 18.00.21005.01
+[2015.10.21-15.27.46:403][  0]LogInit: Build Configuration: Development
+[2015.10.21-15.27.46:403][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.8
+[2015.10.21-15.27.46:403][  0]LogInit: Command line: 
+[2015.10.21-15.27.46:403][  0]LogInit: Base directory: C:/Program Files/Epic Games/4.8/Engine/Binaries/Win64/
+[2015.10.21-15.27.46:403][  0]LogInit: Rocket: 1
+[2015.10.21-15.27.46:423][  0]LogInit: Using libcurl 7.41.0
+[2015.10.21-15.27.46:423][  0]LogInit:  - built for x86_64-pc-win32
+[2015.10.21-15.27.46:423][  0]LogInit:  - supports SSL with WinSSL
+[2015.10.21-15.27.46:423][  0]LogInit:  - other features:
+[2015.10.21-15.27.46:423][  0]LogInit:      CURL_VERSION_SSL
+[2015.10.21-15.27.46:423][  0]LogInit:      CURL_VERSION_IPV6
+[2015.10.21-15.27.46:424][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2015.10.21-15.27.46:424][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2015.10.21-15.27.46:424][  0]LogInit:      CURL_VERSION_IDN
+[2015.10.21-15.27.46:424][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2015.10.21-15.27.46:424][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2015.10.21-15.27.46:424][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2015.10.21-15.27.46:424][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2015.10.21-15.27.46:424][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2015.10.21-15.27.46:440][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2015.10.21-15.27.46:459][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2015.10.21-15.27.46:470][  0]LogInit: Object subsystem initialized
+[2015.10.21-15.27.46:472][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2015.10.21-15.27.46:472][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.21-15.27.46:472][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2015.10.21-15.27.46:472][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.21-15.27.46:472][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2015.10.21-15.27.46:472][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2015.10.21-15.27.46:472][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.21-15.27.46:472][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2015.10.21-15.27.46:495][  0]LogInit: Computer: DESKTOP-6RAQE7I
+[2015.10.21-15.27.46:495][  0]LogInit: User: mrcmo
+[2015.10.21-15.27.46:495][  0]LogInit: CPU Page size=4096, Cores=2
+[2015.10.21-15.27.46:495][  0]LogInit: High frequency timer resolution =2.435881 MHz
+[2015.10.21-15.27.46:495][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2015.10.21-15.27.46:495][  0]LogMemory: Platform Memory Stats for Windows
+[2015.10.21-15.27.46:495][  0]LogMemory: Process Physical Memory: 50.66 MB used, 50.66 MB peak
+[2015.10.21-15.27.46:495][  0]LogMemory: Process Virtual Memory: 24.77 MB used, 24.77 MB peak
+[2015.10.21-15.27.46:495][  0]LogMemory: Physical Memory: 3270.06 MB used, 8077.84 MB total
+[2015.10.21-15.27.46:495][  0]LogMemory: Virtual Memory: 311.56 MB used, 134217728.00 MB total
+[2015.10.21-15.27.46:529][  0]LogTextLocalizationManager: The requested culture ('pl_PL') has no localization data; falling back to 'en' for localization and internationalization data.
+[2015.10.21-15.27.46:818][  0]LogTextLocalizationManager:Warning: Loaded localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (-630476809) Localized String: (Import to {0}...)
+Localization Resource: (C:/Program Files/Epic Games/4.8/Engine/Content/Localization/Editor/en/Editor.locres) Source String Hash: (1271782899) Localized String: (Imports an asset from file to this folder.)
+[2015.10.21-15.27.47:381][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GT 630M     (Feature Level 11_0)
+[2015.10.21-15.27.47:381][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 1 output[s]
+[2015.10.21-15.27.47:397][  0]LogD3D11RHI: Found D3D11 adapter 1: NVIDIA GeForce GT 630M     (Feature Level 11_0)
+[2015.10.21-15.27.47:397][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.21-15.27.47:401][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2015.10.21-15.27.47:401][  0]LogD3D11RHI: Adapter has 1996MB of dedicated video memory, 0MB of dedicated system memory, and 2047MB of shared system memory, 0 output[s]
+[2015.10.21-15.27.47:401][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2015.10.21-15.27.47:407][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.27.47:407][  0]LogD3D11RHI: !Direct3DDevice
+[2015.10.21-15.27.47:407][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2015.10.21-15.27.47:420][  0]LogD3D11RHI: Async texture creation enabled
+[2015.10.21-15.27.47:438][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2015.10.21-15.27.48:545][  0]LogTemp:Display: Loaded TP DesktopTargetPlatform
+[2015.10.21-15.27.48:564][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2015.10.21-15.27.48:587][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2015.10.21-15.27.48:606][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2015.10.21-15.27.48:628][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2015.10.21-15.27.48:644][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2015.10.21-15.27.48:662][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2015.10.21-15.27.48:680][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2015.10.21-15.27.48:697][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2015.10.21-15.27.48:714][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2015.10.21-15.27.48:730][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2015.10.21-15.27.48:748][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2015.10.21-15.27.48:813][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2015.10.21-15.27.48:830][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2015.10.21-15.27.48:848][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2015.10.21-15.27.48:869][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2015.10.21-15.27.48:869][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2015.10.21-15.27.49:162][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2015.10.21-15.27.49:224][  0]LogDerivedDataCache: Loaded boot cache 0.06s 53MB C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.21-15.27.49:224][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc
+[2015.10.21-15.27.49:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2015.10.21-15.27.49:224][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2015.10.21-15.27.49:224][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2015.10.21-15.27.49:224][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2015.10.21-15.27.49:415][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2015.10.21-15.27.49:428][  0]LogDerivedDataCache: Using Local data cache path C:/Users/mrcmo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2015.10.21-15.27.49:747][  0]LogInit: Selected Device Profile: [Windows]
+[2015.10.21-15.27.49:853][  0]ImportText (ComponentSweepMultiTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",ShapeType="TriggerCapsule",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.21-15.27.49:854][  0]ImportText (LineTraceSingleByChannelTests): Missing closing parenthesis: (RootShapeAsset="/Engine/BasicShapes/Cube.Cube",HitResult=(Time=0.50,Location=(X=-100.000015,Y=0.0,Z=100.000015),ImpactPoint=(X=-50.0,Y=0.0,Z=50.0),Normal=(X=-1.0,Y=-0.0,Z=0.0),ImpactNormal=(X=0.0,Y=0.0,Z=1.0),TraceStart=(X=-200.0,Y=0.0,Z=200.0),TraceEnd=(X=0.0,Y=0.0,Z=0.0))
+[2015.10.21-15.27.49:894][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2015.10.21-15.27.49:894][  0]LogMeshUtilities: No automatic mesh merging module available
+[2015.10.21-15.27.50:287][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2015.10.21-15.27.51:534][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2015.10.21-15.27.52:012][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.27.52:013][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.27.52:032][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.27.52:052][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.27.52:376][  0]LogObj: 26273 objects as part of root set at end of initial load.
+[2015.10.21-15.27.52:376][  0]LogUObjectAllocator: 5409256 out of 0 bytes used by permanent object pool.
+[2015.10.21-15.27.52:468][  0]LogEngine: Initializing Engine...
+[2015.10.21-15.27.52:471][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.6.0.0
+[2015.10.21-15.27.52:472][  0]LogHMD:Warning: SteamVR failed to initialize.  Error: 110
+[2015.10.21-15.27.52:681][  0]LogAIModule: Creating AISystem for world NewWorld
+[2015.10.21-15.27.52:685][  0]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.27.52:708][  0]LogInit: FAudioDevice initialized.
+[2015.10.21-15.27.52:740][  0]LogDerivedDataCache: Saved boot cache 0.03s 53MB C:/Users/mrcmo/AppData/Local/UnrealEngine/4.8/DerivedDataCache/Boot.ddc.
+[2015.10.21-15.27.52:751][  0]LogInit: Texture streaming: Disabled
+[2015.10.21-15.27.52:787][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2015.10.21-15.27.52:787][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.8.3-2634408+++depot+UE4-Releases+4.8
+[2015.10.21-15.27.52:787][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 79bddb9f464d20ee9f177c986d77ef1a|9dd5e3bebceb455facde07c8901c54b2|2e2e6e00-0e59-40fc-8d54-e5025d4ae304
+[2015.10.21-15.27.52:787][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2015.10.21-15.27.52:826][  0]LogInit: Transaction tracking system initialized
+[2015.10.21-15.27.53:039][  0]BlueprintLog: New page: Editor Load
+[2015.10.21-15.27.53:087][  0]LogAssetRegistry: FAssetRegistry took 0.0112 seconds to start up
+[2015.10.21-15.27.53:087][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2015.10.21-15.27.54:443][  0]LogConsoleManager:Warning: Console variable 'r.VSync' wasn't set ('GameSetting' has a lower priority than 'SystemSettingsIni')
+[2015.10.21-15.27.54:444][  0]LogConsoleResponse:Display: 
+[2015.10.21-15.27.54:649][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2015.10.21-15.27.55:012][  0]SourceControl: Info Source control is disabled
+[2015.10.21-15.27.55:012][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.21-15.27.55:013][  0]LightingResults: New page: Lighting Build
+[2015.10.21-15.27.55:038][  0]MapCheck: New page: Map Check
+[2015.10.21-15.27.55:038][  0]LightingResults: New page: Lighting Build
+[2015.10.21-15.27.55:068][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB84AAA200
+[2015.10.21-15.27.55:867][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2015.10.21-15.27.55:878][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.21-15.27.55:890][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.21-15.27.55:957][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 66.631ms to complete.
+[2015.10.21-15.27.55:957][  0]LogFileHelpers: Loading map 'Template_Default' took 0.944
+[2015.10.21-15.27.56:119][  0]LogCollectionManager: Loaded 0 collections in 0.004192 seconds
+[2015.10.21-15.27.56:135][  0]LogContentBrowser: Native class hierarchy populated in 0.0157 seconds. Added 1792 classes and 301 folders.
+[2015.10.21-15.27.56:290][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.21-15.27.56:397][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2015.10.21-15.27.56:488][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2015.10.21-15.27.56:563][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2015.10.21-15.27.56:566][  0]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.27.56:570][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2015.10.21-15.27.56:593][  0]LogLoad: Full Startup: 12.61 seconds (BP compile: 0.33 seconds)
+[2015.10.21-15.27.56:715][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2015.10.21-15.27.56:754][  0]LogContentStreaming: Texture pool size now 400 MB
+[2015.10.21-15.27.56:905][  0]LogRenderer: Reallocating scene render targets to support 704x624 (Frame:2).
+[2015.10.21-15.27.57:366][  7]LogAssetRegistry: Asset discovery search completed in 4.2903 seconds
+[2015.10.21-15.27.57:658][ 21]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.04:595][435]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.10:495][633]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.10:608][633]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.28.10:696][633]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Enums/RenderToTexture_Enum.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2015.10.21-15.28.19:096][ 15]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.28.21:633][144]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.22:059][144]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.ArrowComponent0 and ArrowComponent /Game/Levels/Level_1.Level_1:PersistentLevel.LightSource.ArrowComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:059][144]LogUObjectGlobals:Warning: Guid is in use by ArrowComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Arrow and ArrowComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Arrow, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:059][144]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:059][144]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.Sprite2 and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.Sprite2, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:059][144]LogUObjectGlobals:Warning: Guid is in use by BillboardComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.Sprite and BillboardComponent /Game/Levels/Level_1.Level_1:PersistentLevel.SkyLight_1.Sprite, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:060][144]LogUObjectGlobals:Warning: Guid is in use by CapsuleComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.PlayerStart.CollisionCapsule and CapsuleComponent /Game/Levels/Level_1.Level_1:PersistentLevel.PlayerStart.CollisionCapsule, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:060][144]LogUObjectGlobals:Warning: Guid is in use by DirectionalLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.LightSource.LightComponent0 and DirectionalLightComponent /Game/Levels/Level_1.Level_1:PersistentLevel.LightSource.LightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:062][144]LogUObjectGlobals:Warning: Guid is in use by SkyLightComponent /Temp/Untitled_1.Untitled_1:PersistentLevel.SkyLight_1.SkyLightComponent0 and SkyLightComponent /Game/Levels/Level_1.Level_1:PersistentLevel.SkyLight_1.SkyLightComponent0, which should never happen in the editor but could happen at runtime with duplicate level loading or PIE
+[2015.10.21-15.28.22:246][144]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.28.22:334][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.28.22:447][144]Cmd: MAP LOAD FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2015.10.21-15.28.22:447][144]LightingResults: New page: Lighting Build
+[2015.10.21-15.28.22:479][144]LoadErrors: New page: Loading map: Level_1.umap
+[2015.10.21-15.28.22:480][144]MapCheck: New page: Map Check
+[2015.10.21-15.28.22:480][144]LightingResults: New page: Lighting Build
+[2015.10.21-15.28.22:520][144]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBF6402C00
+[2015.10.21-15.28.22:709][144]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.28.22:796][144]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2015.10.21-15.28.22:879][144]Cmd: MAP CHECKDEP NOCLEARLOG
+[2015.10.21-15.28.22:960][144]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 80.954ms to complete.
+[2015.10.21-15.28.22:960][144]LogFileHelpers: Loading map 'Level_1' took 0.514
+[2015.10.21-15.28.28:240][436]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.28.36:029][887]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.40:919][145]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.28.44:391][316]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.45:380][368]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2015.10.21-15.28.47:591][467]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2015.10.21-15.28.47:672][467]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.47:724][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.28.48:581][467]LogSavePackage: Save=763.290161ms
+[2015.10.21-15.28.48:581][467]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint3F67CF65471023DE813F808842512AD8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.28.55:654][880]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.28.56:181][901]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.02:067][236]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.02:385][248]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.10:331][711]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.10:766][730]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.14:807][959]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.15:418][988]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.33:029][ 30]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.34:711][123]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.39:229][392]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.39:770][418]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.44:463][686]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.44:851][703]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.50:906][ 55]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.51:623][ 92]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.57:070][407]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.29.57:415][421]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.10:293][180]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.12:960][332]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.21:960][839]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.24:076][965]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.30:776][366]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.32:228][452]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.30.34:890][609]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.31.00:074][116]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.31.00:348][128]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.31.11:980][820]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.31.19:374][261]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.31.19:452][261]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.31.19:494][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.31.20:367][261]LogSavePackage: Save=815.367004ms
+[2015.10.21-15.31.20:367][261]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint451D4ED049DCDF28B4D447A7D5BE87C8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.31.20:919][290]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.31.20:943][290]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.31.20:972][290]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.21-15.31.21:812][290]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.21-15.31.21:965][290]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.21-15.31.22:071][290]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.21-15.31.22:188][290]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.21-15.31.22:765][290]LogPlayLevel: PIE:  Blueprint regeneration took 1846 ms (5 blueprints)
+[2015.10.21-15.31.22:768][290]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:31:22 PM)
+[2015.10.21-15.31.22:769][290]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.31.22:776][290]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007188s)
+[2015.10.21-15.31.22:777][290]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.31.22:778][290]LogPlayLevel: PIE: World Init took: (0.002033s)
+[2015.10.21-15.31.22:778][290]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.009534s)
+[2015.10.21-15.31.22:846][290]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.31.22:855][290]LogInit: FAudioDevice initialized.
+[2015.10.21-15.31.22:858][290]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.31.23:222][290]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.31.23:234][290]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.31.23:234][290]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.31.23
+[2015.10.21-15.31.23:235][290]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.31.23:236][290]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.31.23:236][290]LogWorld: Bringing up level for play took: 0.012152
+[2015.10.21-15.31.23:318][290]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 1.922
+[2015.10.21-15.31.34:561][833]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.31.34:696][834]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBF71EC180
+[2015.10.21-15.33.12:683][697]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.13:043][711]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.15:621][847]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.33.15:696][847]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.15:801][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.33.16:136][847]LogSavePackage: Save=208.815613ms
+[2015.10.21-15.33.16:136][847]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1BF29A8364F8A34C2BED0C49B024FBFAA.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.33.16:195][847]LogFileHelpers: Saving map 'Level_1' took 0.475
+[2015.10.21-15.33.16:227][847]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.33.17:106][847]LogSavePackage: Save=832.047241ms
+[2015.10.21-15.33.17:106][847]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint4786E9AA4E0B6C9FCD9B1CA6F647DAFF.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.33.17:637][875]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.33.17:661][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.33.17:692][875]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.21-15.33.18:591][875]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.21-15.33.18:698][875]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.21-15.33.18:805][875]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.21-15.33.18:915][875]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.10.21-15.33.19:043][875]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.21-15.33.19:628][875]LogPlayLevel: PIE:  Blueprint regeneration took 1991 ms (6 blueprints)
+[2015.10.21-15.33.19:628][875]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:33:19 PM)
+[2015.10.21-15.33.19:629][875]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.33.19:636][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006694s)
+[2015.10.21-15.33.19:637][875]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.33.19:638][875]LogPlayLevel: PIE: World Init took: (0.002134s)
+[2015.10.21-15.33.19:638][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.009115s)
+[2015.10.21-15.33.19:692][875]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.33.19:701][875]LogInit: FAudioDevice initialized.
+[2015.10.21-15.33.19:704][875]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.19:736][875]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.33.19:744][875]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.33.19:744][875]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.33.19
+[2015.10.21-15.33.19:744][875]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.33.19:745][875]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.33.19:745][875]LogWorld: Bringing up level for play took: 0.007318
+[2015.10.21-15.33.19:822][875]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 2.426
+[2015.10.21-15.33.22:780][ 20]LogBlueprintUserMessages: Hello
+[2015.10.21-15.33.23:205][ 41]LogBlueprintUserMessages: Hello
+[2015.10.21-15.33.24:929][132]LogBlueprintUserMessages: Hello
+[2015.10.21-15.33.25:254][144]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.33.25:337][145]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBAFDE7060
+[2015.10.21-15.33.26:147][190]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.26:241][190]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.33.26:530][190]LogSavePackage: Save=187.527222ms
+[2015.10.21-15.33.26:530][190]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_15A163AE9477877348B8733AD5AD230E8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.33.26:599][190]LogFileHelpers: Saving map 'Level_1' took 0.438
+[2015.10.21-15.33.35:215][688]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.43:297][131]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.43:628][142]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.52:278][649]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.33.52:591][660]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.00:912][144]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.01:778][188]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.02:833][249]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.04:063][322]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.09:278][633]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.10:664][715]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.12:898][848]LogEditorTransaction: Undo Delete current selection
+[2015.10.21-15.34.12:985][848]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.34.13:023][848]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.13:868][887]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.14:467][922]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.16:853][ 64]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_2) Not registered. Aborting.
+[2015.10.21-15.34.16:937][ 64]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.16:996][ 64]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.34.17:884][ 64]LogSavePackage: Save=818.025208ms
+[2015.10.21-15.34.17:885][ 64]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintEF2326884BC1771366CFC2AA3068B49D.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.34.18:317][ 87]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.34.18:350][ 87]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.34.18:385][ 87]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.21-15.34.19:335][ 87]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.21-15.34.19:436][ 87]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.21-15.34.19:544][ 87]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.21-15.34.19:651][ 87]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.10.21-15.34.19:776][ 87]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.21-15.34.20:332][ 87]LogPlayLevel: PIE:  Blueprint regeneration took 2015 ms (6 blueprints)
+[2015.10.21-15.34.20:332][ 87]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:34:20 PM)
+[2015.10.21-15.34.20:333][ 87]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.34.20:339][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006588s)
+[2015.10.21-15.34.20:341][ 87]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.34.20:342][ 87]LogPlayLevel: PIE: World Init took: (0.002539s)
+[2015.10.21-15.34.20:342][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.009460s)
+[2015.10.21-15.34.20:399][ 87]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.34.20:408][ 87]LogInit: FAudioDevice initialized.
+[2015.10.21-15.34.20:411][ 87]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.20:442][ 87]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.34.20:451][ 87]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.34.20:451][ 87]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.34.20
+[2015.10.21-15.34.20:451][ 87]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.34.20:451][ 87]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.34.20:452][ 87]LogWorld: Bringing up level for play took: 0.007722
+[2015.10.21-15.34.20:530][ 87]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 3.134
+[2015.10.21-15.34.27:818][449]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.34.27:901][450]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBBA96D3A0
+[2015.10.21-15.34.34:080][819]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.34:580][844]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.37:434][ 13]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.38:010][ 40]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.42:146][275]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.43:426][351]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.52:142][872]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.34.53:131][924]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.35.00:288][341]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.35.05:873][673]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.35.05:936][673]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.35.06:028][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.35.06:321][673]LogSavePackage: Save=188.224716ms
+[2015.10.21-15.35.06:321][673]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_180022FAD4F5B8385E4107297FF78C1E4.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.35.06:372][673]LogFileHelpers: Saving map 'Level_1' took 0.425
+[2015.10.21-15.35.06:404][673]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.35.07:245][673]LogSavePackage: Save=791.259094ms
+[2015.10.21-15.35.07:245][673]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintFFEBBBB0488ADA445D5C9D82225E63A1.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.35.13:879][ 67]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.35.13:910][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.35.13:940][ 67]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.21-15.35.14:807][ 67]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.35.14:851][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.35.15:676][ 67]LogSavePackage: Save=776.679993ms
+[2015.10.21-15.35.15:676][ 67]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprint434AB728476A00B18876F0AB6F775A1A.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.35.15:712][ 67]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.21-15.35.15:816][ 67]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.21-15.35.15:919][ 67]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.21-15.35.16:023][ 67]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.10.21-15.35.16:141][ 67]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.21-15.35.16:549][ 67]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_3) Not registered. Aborting.
+[2015.10.21-15.35.16:701][ 67]LogPlayLevel: PIE:  Blueprint regeneration took 2821 ms (6 blueprints)
+[2015.10.21-15.35.16:701][ 67]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:35:16 PM)
+[2015.10.21-15.35.16:701][ 67]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.35.16:707][ 67]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005939s)
+[2015.10.21-15.35.16:708][ 67]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.35.16:710][ 67]LogPlayLevel: PIE: World Init took: (0.002218s)
+[2015.10.21-15.35.16:710][ 67]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.008579s)
+[2015.10.21-15.35.16:764][ 67]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.35.16:774][ 67]LogInit: FAudioDevice initialized.
+[2015.10.21-15.35.16:777][ 67]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.35.16:810][ 67]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.35.16:818][ 67]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.35.16:818][ 67]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.35.16
+[2015.10.21-15.35.16:818][ 67]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.35.16:819][ 67]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.35.16:819][ 67]LogWorld: Bringing up level for play took: 0.007552
+[2015.10.21-15.35.16:915][ 67]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 3.519
+[2015.10.21-15.35.24:789][436]LogCharacterMovement: PlayerBlueprint_C_22 is stuck and failed to move!
+[2015.10.21-15.35.24:810][437]LogCharacterMovement: PlayerBlueprint_C_22 is stuck and failed to move!
+[2015.10.21-15.35.24:851][439]LogCharacterMovement: PlayerBlueprint_C_22 is stuck and failed to move!
+[2015.10.21-15.35.24:927][443]LogCharacterMovement: PlayerBlueprint_C_22 is stuck and failed to move!
+[2015.10.21-15.35.26:194][507]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:275][511]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:295][512]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:314][513]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:334][514]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:353][515]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:373][516]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:391][517]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:413][518]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:430][519]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:466][521]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:503][523]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:572][526]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:591][527]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:610][528]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:628][529]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:667][531]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:686][532]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.35.26:688][532]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:768][536]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:788][537]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.26:808][538]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.26:830][539]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.26:851][540]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.26:886][542]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.35.26:943][545]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.26:960][546]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.26:998][548]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.27:037][550]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.27:055][551]LogCharacterMovement: PlayerBlueprint_C_29 is stuck and failed to move!
+[2015.10.21-15.35.31:599][759]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.35.31:700][760]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB8A0A0FE0
+[2015.10.21-15.35.32:492][804]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.35.32:584][804]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.35.32:879][804]LogSavePackage: Save=191.459686ms
+[2015.10.21-15.35.32:879][804]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1346D5F9346226EAD07D53688308A8963.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.35.32:936][804]LogFileHelpers: Saving map 'Level_1' took 0.433
+[2015.10.21-15.35.51:401][838]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.01:529][424]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.02:581][484]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.08:440][832]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.08:706][845]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.16:832][329]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.17:423][362]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.27:633][965]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.36.28:217][995]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.37.47:796][155]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.37.48:208][175]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.37.59:321][794]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.03:994][ 74]BlueprintLog: New page: Compile BotAI_tmp
+[2015.10.21-15.38.04:020][ 74]LogBlueprint:Warning: [compiler BotAI_tmp] Warning 'Player Blueprint' does not inherit from 'AIController' ( Cast To PlayerBlueprint  would always fail).
+[2015.10.21-15.38.04:267][ 74]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.38.04:355][ 74]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0620.37] Compile of BotAI_tmp successful, but with 1 Warning(s) [in 360 ms]
+[2015.10.21-15.38.04:355][ 74]BlueprintEditorCompileResults:Warning: Warning 'Player Blueprint' does not inherit from 'AIController' ( Cast To PlayerBlueprint  would always fail).
+[2015.10.21-15.38.04:355][ 74]BlueprintEditorCompileResults:Warning: Warning [0620.37] Compile of BotAI_tmp successful, but with 1 Warning(s) [in 360 ms]
+[2015.10.21-15.38.21:484][101]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.22:055][126]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.34:366][811]BlueprintLog: New page: Compile BotAI_tmp
+[2015.10.21-15.38.34:391][811]LogBlueprint:Warning: [compiler BotAI_tmp] Warning 'Player Blueprint' does not inherit from 'Skeletal Mesh Component' ( Cast To PlayerBlueprint  would always fail).
+[2015.10.21-15.38.34:392][811]LogBlueprint:Error: [compiler BotAI_tmp] Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2015.10.21-15.38.34:392][811]LogBlueprint:Error: [compiler BotAI_tmp] Error Variable node  Get Mesh  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.10.21-15.38.34:572][811]LogBlueprint:Warning: [compiler BotAI_tmp] Warning [0650.59] Compile of BotAI_tmp failed. 2 Fatal Issue(s) 1 Warning(s) [in 206 ms]
+[2015.10.21-15.38.34:572][811]BlueprintEditorCompileResults:Warning: Warning 'Player Blueprint' does not inherit from 'Skeletal Mesh Component' ( Cast To PlayerBlueprint  would always fail).
+[2015.10.21-15.38.34:572][811]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2015.10.21-15.38.34:572][811]BlueprintEditorCompileResults:Error: Error Variable node  Get Mesh  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2015.10.21-15.38.34:572][811]BlueprintEditorCompileResults:Warning: Warning [0650.59] Compile of BotAI_tmp failed. 2 Fatal Issue(s) 1 Warning(s) [in 206 ms]
+[2015.10.21-15.38.37:678][996]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.39:919][129]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.49:736][716]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.50:445][754]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.51:825][836]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.53:182][913]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.38.53:278][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.38.53:594][913]LogSavePackage: Save=200.729019ms
+[2015.10.21-15.38.53:594][913]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_11A8FECA14F4EDB367E58BE9A93BB29F8.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.38.53:653][913]LogFileHelpers: Saving map 'Level_1' took 0.459
+[2015.10.21-15.38.53:661][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BotAI_tmp" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset" SILENT=true
+[2015.10.21-15.38.53:739][913]LogSavePackage: Save=24.529114ms
+[2015.10.21-15.38.53:739][913]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/BotAI_tmpCBFD5A0947B28FC514D78681D2DFAA79.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/BotAI_tmp.uasset'
+[2015.10.21-15.38.57:983][167]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.39.00:196][289]BlueprintLog: New page: Pre-PIE auto-recompile
+[2015.10.21-15.39.00:228][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.39.00:257][289]LogPlayLevel: [PIE] Compiling PlayerBlueprint before PIE...
+[2015.10.21-15.39.01:414][289]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.39.01:465][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBlueprint" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset" SILENT=true
+[2015.10.21-15.39.02:285][289]LogSavePackage: Save=774.011108ms
+[2015.10.21-15.39.02:285][289]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/PlayerBlueprintE7496E324B46068B25A8678E04659778.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Blueprints/PlayerBlueprint.uasset'
+[2015.10.21-15.39.02:328][289]LogPlayLevel: [PIE] Compiling BotAI_tmp before PIE...
+[2015.10.21-15.39.02:454][289]LogPlayLevel: [PIE] Compiling PistolPickup before PIE...
+[2015.10.21-15.39.02:559][289]LogPlayLevel: [PIE] Compiling RiflePickup before PIE...
+[2015.10.21-15.39.02:663][289]LogPlayLevel: [PIE] Compiling ShotgunPickup before PIE...
+[2015.10.21-15.39.02:768][289]LogPlayLevel: [PIE] Compiling MyHUD before PIE...
+[2015.10.21-15.39.02:889][289]LogPlayLevel: [PIE] Compiling PlayerAnimation before PIE...
+[2015.10.21-15.39.03:292][289]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_4) Not registered. Aborting.
+[2015.10.21-15.39.03:452][289]LogPlayLevel: PIE:  Blueprint regeneration took 3255 ms (7 blueprints)
+[2015.10.21-15.39.03:452][289]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:39:03 PM)
+[2015.10.21-15.39.03:452][289]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.39.03:460][289]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007818s)
+[2015.10.21-15.39.03:461][289]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.39.03:462][289]LogPlayLevel: PIE: World Init took: (0.002085s)
+[2015.10.21-15.39.03:463][289]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.010225s)
+[2015.10.21-15.39.03:519][289]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.39.03:526][289]LogInit: FAudioDevice initialized.
+[2015.10.21-15.39.03:529][289]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.39.03:558][289]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.39.03:565][289]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.39.03:565][289]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.39.03
+[2015.10.21-15.39.03:565][289]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.39.03:566][289]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_4 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.39.03:566][289]LogWorld: Bringing up level for play took: 0.006914
+[2015.10.21-15.39.03:649][289]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 4.253
+[2015.10.21-15.39.13:893][825]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.13:913][826]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.13:931][827]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.13:950][828]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.13:969][829]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.13:992][830]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:009][831]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:026][832]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:043][833]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:060][834]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:078][835]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:106][836]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:123][837]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:140][838]LogCharacterMovement: PlayerBlueprint_C_21 is stuck and failed to move!
+[2015.10.21-15.39.14:957][880]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.15:031][884]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:048][885]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:102][888]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:103][888]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.39.15:121][889]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:148][890]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:202][893]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:264][896]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:265][896]LogCharacterMovement: PlayerBlueprint_C_30 is stuck and failed to move!
+[2015.10.21-15.39.15:285][897]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:324][899]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:343][900]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:383][902]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.15:403][903]LogCharacterMovement: PlayerBlueprint_C_23 is stuck and failed to move!
+[2015.10.21-15.39.16:944][983]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.16:963][984]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.16:985][985]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:004][986]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:023][987]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:043][988]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:062][989]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:081][990]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:099][991]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:118][992]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:137][993]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:153][994]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:171][995]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:191][996]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.17:208][997]LogCharacterMovement: PlayerBlueprint_C_31 is stuck and failed to move!
+[2015.10.21-15.39.29:473][680]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2015.10.21-15.39.29:578][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB9816B740
+[2015.10.21-15.39.30:156][712]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.39.30:253][712]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.39.30:545][712]LogSavePackage: Save=189.943192ms
+[2015.10.21-15.39.30:545][712]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1B3B220EA452F90F85EA729B34AD93567.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.39.30:600][712]LogFileHelpers: Saving map 'Level_1' took 0.426
+[2015.10.21-15.39.35:448][  3]BlueprintLog: New page: Compile BotAI_tmp
+[2015.10.21-15.39.35:634][  3]BlueprintEditorCompileResults: Info [0711.65] Compile of BotAI_tmp successful! [in 185 ms]
+[2015.10.21-15.39.36:831][ 73]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.39.36:831][ 73]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:39:36 PM)
+[2015.10.21-15.39.36:832][ 73]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.39.36:841][ 73]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009227s)
+[2015.10.21-15.39.36:843][ 73]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.39.36:844][ 73]LogPlayLevel: PIE: World Init took: (0.002504s)
+[2015.10.21-15.39.36:844][ 73]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.012074s)
+[2015.10.21-15.39.36:910][ 73]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.39.36:917][ 73]LogInit: FAudioDevice initialized.
+[2015.10.21-15.39.36:921][ 73]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.39.36:954][ 73]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.39.36:963][ 73]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.39.36:963][ 73]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.39.36
+[2015.10.21-15.39.36:963][ 73]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.39.36:964][ 73]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_5 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.39.36:965][ 73]LogWorld: Bringing up level for play took: 0.009602
+[2015.10.21-15.39.37:048][ 73]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 -0.349
+[2015.10.21-15.39.46:894][620]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.46:914][621]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.46:934][622]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.46:954][623]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.46:974][624]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:015][626]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:099][630]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:119][631]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:223][636]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:243][637]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:265][638]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:285][639]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:287][639]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:306][640]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:307][640]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:327][641]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:327][641]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:346][642]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:367][643]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:407][645]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:409][645]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:427][646]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:428][646]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:448][647]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:467][648]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:468][648]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:488][649]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.47:489][649]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:508][650]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:529][651]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.47:574][653]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.50:320][786]LogCharacterMovement: PlayerBlueprint_C_38 is stuck and failed to move!
+[2015.10.21-15.39.50:462][793]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.39.50:523][796]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.39.50:543][797]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.39.50:584][799]LogCharacterMovement: PlayerBlueprint_C_39 is stuck and failed to move!
+[2015.10.21-15.39.55:237][ 45]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.55:254][ 46]LogCharacterMovement: PlayerBlueprint_C_36 is stuck and failed to move!
+[2015.10.21-15.39.56:378][105]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.39.56:396][106]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.39.56:537][114]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.39.56:556][115]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.39.56:573][116]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.39.56:590][117]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.39.56:625][119]LogCharacterMovement: PlayerBlueprint_C_37 is stuck and failed to move!
+[2015.10.21-15.40.03:189][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBA342B560
+[2015.10.21-15.40.04:281][542]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.40.04:378][542]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.40.04:692][542]LogSavePackage: Save=203.366669ms
+[2015.10.21-15.40.04:692][542]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_1AFCB4DC748F9753383BCBE92C3E327FD.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.40.04:747][542]LogFileHelpers: Saving map 'Level_1' took 0.455
+[2015.10.21-15.40.29:795][996]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp)
+[2015.10.21-15.40.30:622][ 37]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp2)
+[2015.10.21-15.40.31:462][ 78]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2015.10.21-15.40.32:882][153]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere2)
+[2015.10.21-15.40.34:100][217]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp)
+[2015.10.21-15.40.34:981][263]LogEditorViewport: Clicking on Actor (CTRL LMB): BotAI_tmp_C (BotAI_tmp2)
+[2015.10.21-15.40.36:275][331]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Floor)
+[2015.10.21-15.40.43:828][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:845][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:859][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:876][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:892][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:906][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:920][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:934][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:949][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:964][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:975][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.43:991][720]LogEditorActor: Deleted Actor: BotAI_tmp_C
+[2015.10.21-15.40.44:080][720]LogEditorActor: Deleted 12 Actors (0.253 secs)
+[2015.10.21-15.40.45:095][774]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.40.45:198][774]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level_1" FILE="../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2015.10.21-15.40.45:490][774]LogSavePackage: Save=187.122025ms
+[2015.10.21-15.40.45:490][774]LogSavePackage: Moving '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Saved/Level_17C95334E4B6FF4ED3C1EF4943DF469AF.tmp' to '../../../../../../Users/mrcmo/Documents/Unreal Projects/FPS_Game/Content/Levels/Level_1.umap'
+[2015.10.21-15.40.45:552][774]LogFileHelpers: Saving map 'Level_1' took 0.435
+[2015.10.21-15.40.45:984][796]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2015.10.21-15.40.45:985][796]PIE: New page: PIE session: Level_1 (Oct 21, 2015, 7:40:45 PM)
+[2015.10.21-15.40.45:985][796]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level_1
+[2015.10.21-15.40.45:992][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006616s)
+[2015.10.21-15.40.45:992][796]LogAIModule: Creating AISystem for world Level_1
+[2015.10.21-15.40.45:993][796]LogPlayLevel: PIE: World Init took: (0.001812s)
+[2015.10.21-15.40.45:994][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level_1.Level_1 to /Game/Levels/UEDPIE_0_Level_1.Level_1 (0.008742s)
+[2015.10.21-15.40.46:066][796]LogInit: XAudio2 using 'Głośniki (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2015.10.21-15.40.46:073][796]LogInit: FAudioDevice initialized.
+[2015.10.21-15.40.46:077][796]LogD3D11RHI: InitD3DDevice
+[2015.10.21-15.40.46:110][796]LogWorld: Game class is 'Game_C'
+[2015.10.21-15.40.46:117][796]LogWorld:Warning: *** WARNING - PATHS MAY NOT BE VALID ***
+[2015.10.21-15.40.46:117][796]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level_1.Level_1 up for play (max tick rate 60) at 2015.10.21-17.40.46
+[2015.10.21-15.40.46:117][796]LogActor:Warning: GameSession /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameSession_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.40.46:118][796]LogActor:Warning: GameNetworkManager /Game/Levels/UEDPIE_0_Level_1.Level_1:PersistentLevel.GameNetworkManager_6 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2015.10.21-15.40.46:118][796]LogWorld: Bringing up level for play took: 0.006215
+[2015.10.21-15.40.46:166][796]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level_1 0.77
+[2015.10.21-15.40.56:040][370]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBF5FFD6C0
+[2015.10.21-15.41.12:247][258]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2015.10.21-15.41.13:196][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBA36A3920
+[2015.10.21-15.41.13:198][303]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB9AB68540
+[2015.10.21-15.41.15:163][384]Cmd: QUIT_EDITOR
+[2015.10.21-15.41.15:612][384]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2015.10.21-15.41.15:759][384]LogExit: Preparing to exit.
+[2015.10.21-15.41.16:169][384]LogExit: Editor shut down
+[2015.10.21-15.41.16:169][384]LogExit: Transaction tracking system shut down
+[2015.10.21-15.41.16:171][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB8C25DB20
+[2015.10.21-15.41.16:172][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBF6448180
+[2015.10.21-15.41.16:172][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB8E75A020
+[2015.10.21-15.41.16:174][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EB8A0A0A40
+[2015.10.21-15.41.16:177][384]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000EBA9895D00
+[2015.10.21-15.41.16:416][384]LogExit: Object subsystem successfully closed.
+[2015.10.21-15.41.16:438][384]LogD3D11RHI: Shutdown
+[2015.10.21-15.41.16:438][384]LogD3D11RHI: CleanupD3DDevice
+[2015.10.21-15.41.16:510][384]LogD3D11RHI: ~FD3D11DynamicRHI
+[2015.10.21-15.41.16:537][384]LogModuleManager: Shutting down and abandoning module CrashTracker (188)
+[2015.10.21-15.41.16:537][384]LogModuleManager: Shutting down and abandoning module SceneOutliner (187)
+[2015.10.21-15.41.16:537][384]LogModuleManager: Shutting down and abandoning module SuperSearch (186)
+[2015.10.21-15.41.16:537][384]LogModuleManager: Shutting down and abandoning module WidgetCarousel (185)
+[2015.10.21-15.41.16:537][384]LogModuleManager: Shutting down and abandoning module AddContentDialog (184)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module EditorWidgets (183)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module CollectionManager (182)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module StatsViewer (181)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module FoliageEdit (180)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module LandscapeEditor (179)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module ActorPickerMode (178)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module GeometryMode (177)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module TextureAlignMode (176)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module BspMode (175)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module PlacementMode (174)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module AutomationWorker (173)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module CharacterAI (172)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module SmartSnapping (171)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module ViewportSnapping (170)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module LogVisualizer (169)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (168)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module IntroTutorials (167)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (166)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (165)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (164)
+[2015.10.21-15.41.16:539][384]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (163)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (162)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (161)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (160)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module MergeActors (159)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module SizeMap (158)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module TreeMap (157)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module ReferenceViewer (156)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (155)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module HardwareTargeting (154)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (153)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module UndoHistory (152)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (151)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module UserFeedback (150)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module XmlParser (149)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module Blutility (148)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (147)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (146)
+[2015.10.21-15.41.17:473][384]LogModuleManager: Shutting down and abandoning module InputBindingEditor (145)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (144)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module SettingsEditor (143)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module ProjectLauncher (142)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module SessionFrontend (141)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module ProfilerClient (140)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (139)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module DeviceManager (138)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module AutomationController (137)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module AutomationWindow (136)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module Layers (135)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (134)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module DetailCustomizations (133)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module PackagesDialog (132)
+[2015.10.21-15.41.17:474][384]LogModuleManager: Shutting down and abandoning module AssetRegistry (131)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module Persona (130)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module Kismet (129)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module GraphEditor (128)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module ClassViewer (127)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module Toolbox (126)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module ModuleUI (125)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module MovieSceneTools (124)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module OutputLog (123)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module GammaUI (122)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module Documentation (121)
+[2015.10.21-15.41.17:578][384]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (120)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (119)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module AnalyticsET (118)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module Analytics (117)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module AITestSuite (116)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module GameplayDebugger (115)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module AIModule (114)
+[2015.10.21-15.41.17:579][384]LogModuleManager: Shutting down and abandoning module ProfilerService (113)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module TaskGraph (112)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module SlateRemote (111)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module SteamVRController (110)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module SteamVR (109)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (108)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module OculusRift (107)
+[2015.10.21-15.41.17:790][384]LogModuleManager: Shutting down and abandoning module LeapMotionController (106)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (105)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module CableComponent (104)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module MessagingDebugger (103)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (102)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (101)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module PluginBrowser (100)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module EpicSurvey (99)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module DesktopPlatform (98)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (97)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module UObjectPlugin (96)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (95)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (94)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module SourceControl (93)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module GitSourceControl (92)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module BlankPlugin (91)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (90)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (89)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module MeshPaint (88)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module SlateReflector (87)
+[2015.10.21-15.41.17:809][384]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (86)
+[2015.10.21-15.41.17:811][384]LogModuleManager: Shutting down and abandoning module HotReload (85)
+[2015.10.21-15.41.17:811][384]LogModuleManager: Shutting down and abandoning module MainFrame (84)
+[2015.10.21-15.41.17:811][384]LogModuleManager: Shutting down and abandoning module LevelEditor (83)
+[2015.10.21-15.41.17:812][384]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2015.10.21-15.41.17:815][384]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2015.10.21-15.41.17:815][384]LogModuleManager: Shutting down and abandoning module UdpMessaging (80)
+[2015.10.21-15.41.17:916][384]LogModuleManager: Shutting down and abandoning module Paper2D (79)
+[2015.10.21-15.41.17:916][384]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (78)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module Media (77)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (75)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module PropertyEditor (74)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (73)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module FunctionalTesting (72)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (71)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (70)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module MessageLog (69)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module Sequencer (68)
+[2015.10.21-15.41.17:921][384]LogModuleManager: Shutting down and abandoning module AssetTools (67)
+[2015.10.21-15.41.17:922][384]LogModuleManager: Shutting down and abandoning module UMGEditor (66)
+[2015.10.21-15.41.17:922][384]LogModuleManager: Shutting down and abandoning module UMG (65)
+[2015.10.21-15.41.17:922][384]LogModuleManager: Shutting down and abandoning module Slate (64)
+[2015.10.21-15.41.17:922][384]LogModuleManager: Shutting down and abandoning module EditorStyle (63)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module SessionServices (62)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (61)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (60)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module XAudio2 (59)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module Networking (57)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module Core (56)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module KismetCompiler (55)
+[2015.10.21-15.41.17:929][384]LogModuleManager: Shutting down and abandoning module PhysXFormats (54)
+[2015.10.21-15.41.17:932][384]LogModuleManager: Shutting down and abandoning module MeshUtilities (53)
+[2015.10.21-15.41.17:932][384]LogModuleManager: Shutting down and abandoning module DerivedDataCache (52)
+[2015.10.21-15.41.18:008][384]LogDerivedDataCache: Shutdown
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (51)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (50)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (49)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (48)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (47)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (46)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (45)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module ImageWrapper (44)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (43)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (42)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (41)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (40)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (39)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (38)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (37)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (36)
+[2015.10.21-15.41.18:008][384]LogModuleManager: Shutting down and abandoning module Messaging (35)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (34)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (33)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (32)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (31)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (30)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (29)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (28)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (27)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (26)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (25)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (24)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (23)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (22)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module DesktopTargetPlatform (21)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2015.10.21-15.41.18:009][384]LogModuleManager: Shutting down and abandoning module HTTP (15)
+[2015.10.21-15.41.18:010][384]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2015.10.21-15.41.18:010][384]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2015.10.21-15.41.18:010][384]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2015.10.21-15.41.18:010][384]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2015.10.21-15.41.18:010][384]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2015.10.21-15.41.18:017][384]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2015.10.21-15.41.18:018][384]LogExit: Exiting.
+[2015.10.21-15.41.18:021][384]Log file closed, 10/21/15 17:41:18
